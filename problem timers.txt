@@ -1,1 +1,2 @@
 1480. Running Sum of 1d Array - 5min
+724. Find Pivot Index - 100 min (spied solution)
