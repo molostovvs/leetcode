@@ -5,3 +5,4 @@
 1523. Count Odd Numbers in an Interval Range - 15 min
 1491. Average Salary Excluding the Minimum and Maximum Salary - 6 min
 217. Contains Duplicate - 2 min
+1. Two Sum - 5 min
