@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_205.IsomorphicStrings", "p
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_392.IsSubsequence", "problems\_392.IsSubsequence\_392.IsSubsequence.csproj", "{5C2311AD-8A59-4359-8198-675B7AAB27B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1523.CountOddNumbersInAnIntervalRange", "problems\_1523.CountOddNumbersInAnIntervalRange\_1523.CountOddNumbersInAnIntervalRange.csproj", "{363107BD-3B1B-4224-A4E0-57506A56F5E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{5C2311AD-8A59-4359-8198-675B7AAB27B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C2311AD-8A59-4359-8198-675B7AAB27B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C2311AD-8A59-4359-8198-675B7AAB27B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{363107BD-3B1B-4224-A4E0-57506A56F5E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363107BD-3B1B-4224-A4E0-57506A56F5E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363107BD-3B1B-4224-A4E0-57506A56F5E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363107BD-3B1B-4224-A4E0-57506A56F5E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

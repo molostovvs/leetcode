@@ -2,3 +2,4 @@
 724. Find Pivot Index - 100 min (spied solution)
 205. Isomorphic Strings - 25 min
 392. Is Subsequence - 11 min
+1523. Count Odd Numbers in an Interval Range - 15 min
