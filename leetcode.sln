@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_724.FindPivotIndex", "prob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_205.IsomorphicStrings", "problems\_205.IsomorphicStrings\_205.IsomorphicStrings.csproj", "{ACD4ED72-278D-4F19-B4EE-38209E7F9A33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_392.IsSubsequence", "problems\_392.IsSubsequence\_392.IsSubsequence.csproj", "{5C2311AD-8A59-4359-8198-675B7AAB27B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{ACD4ED72-278D-4F19-B4EE-38209E7F9A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACD4ED72-278D-4F19-B4EE-38209E7F9A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACD4ED72-278D-4F19-B4EE-38209E7F9A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C2311AD-8A59-4359-8198-675B7AAB27B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C2311AD-8A59-4359-8198-675B7AAB27B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C2311AD-8A59-4359-8198-675B7AAB27B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C2311AD-8A59-4359-8198-675B7AAB27B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
