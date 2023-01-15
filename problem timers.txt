@@ -7,3 +7,4 @@ __724. Find Pivot Index - 100 min (spied solution)
 217. Contains Duplicate - 2 min
 1. Two Sum - 5 min
 __53. Maximum Subarray - 40 min (spied solution)
+__21. Merge Two Sorted Lists - 50 min (spied solution)
