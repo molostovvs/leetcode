@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_21. Merge Two Sorted Lists
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_206. Reverse Linked List", "problems\_206. Reverse Linked List\_206. Reverse Linked List.csproj", "{600287D0-D6E0-4F43-8A3F-A7C4EDABF508}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_191. Number of 1 Bits", "problems\_191. Number of 1 Bits\_191. Number of 1 Bits.csproj", "{D164B550-77D8-4E2E-8CBC-73A2564B82F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,5 +70,9 @@ Global
 		{600287D0-D6E0-4F43-8A3F-A7C4EDABF508}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{600287D0-D6E0-4F43-8A3F-A7C4EDABF508}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{600287D0-D6E0-4F43-8A3F-A7C4EDABF508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D164B550-77D8-4E2E-8CBC-73A2564B82F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D164B550-77D8-4E2E-8CBC-73A2564B82F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D164B550-77D8-4E2E-8CBC-73A2564B82F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D164B550-77D8-4E2E-8CBC-73A2564B82F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
