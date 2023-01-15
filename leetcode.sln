@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_191. Number of 1 Bits", "p
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1281. Subtract the Product and Sum of Digits of an Integer", "problems\_1281. Subtract the Product and Sum of Digits of an Integer\_1281. Subtract the Product and Sum of Digits of an Integer.csproj", "{15016F6A-F2DB-4EF0-B436-E0249BA0C835}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_88. Merge Sorted Array", "problems\_88. Merge Sorted Array\_88. Merge Sorted Array.csproj", "{67965DEF-82C2-4775-9078-9111FDBD1C3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,5 +82,9 @@ Global
 		{15016F6A-F2DB-4EF0-B436-E0249BA0C835}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15016F6A-F2DB-4EF0-B436-E0249BA0C835}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15016F6A-F2DB-4EF0-B436-E0249BA0C835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67965DEF-82C2-4775-9078-9111FDBD1C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67965DEF-82C2-4775-9078-9111FDBD1C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67965DEF-82C2-4775-9078-9111FDBD1C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67965DEF-82C2-4775-9078-9111FDBD1C3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

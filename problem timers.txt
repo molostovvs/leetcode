@@ -11,3 +11,4 @@ __21. Merge Two Sorted Lists - 50 min (spied solution)
 206. Reverse Linked List - 83 min
 __191. Number of 1 Bits - 20 min (googled library solution) - 80 min (watched youtube video for all possible solutions)
 1281. Subtract the Product and Sum of Digits of an Integer - 16 min
+88. Merge Sorted Array - 15 min
