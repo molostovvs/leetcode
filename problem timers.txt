@@ -1,8 +1,9 @@
 1480. Running Sum of 1d Array - 5min
-724. Find Pivot Index - 100 min (spied solution)
+__724. Find Pivot Index - 100 min (spied solution)
 205. Isomorphic Strings - 25 min
 392. Is Subsequence - 11 min
 1523. Count Odd Numbers in an Interval Range - 15 min
 1491. Average Salary Excluding the Minimum and Maximum Salary - 6 min
 217. Contains Duplicate - 2 min
 1. Two Sum - 5 min
+__53. Maximum Subarray - 40 min (spied solution)
