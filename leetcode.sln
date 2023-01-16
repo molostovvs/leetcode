@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_876. Middle of the Linked 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_142. Linked List Cycle II", "problems\_142. Linked List Cycle II\_142. Linked List Cycle II.csproj", "{00CBCECE-8633-4D22-B973-94B14366E2A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_976. Largest Perimeter Triangle", "problems\_976. Largest Perimeter Triangle\_976. Largest Perimeter Triangle.csproj", "{4BC8FCD9-7CFF-4E4D-BCFC-7163C4FE4467}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -98,5 +100,9 @@ Global
 		{00CBCECE-8633-4D22-B973-94B14366E2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00CBCECE-8633-4D22-B973-94B14366E2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00CBCECE-8633-4D22-B973-94B14366E2A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BC8FCD9-7CFF-4E4D-BCFC-7163C4FE4467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC8FCD9-7CFF-4E4D-BCFC-7163C4FE4467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC8FCD9-7CFF-4E4D-BCFC-7163C4FE4467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC8FCD9-7CFF-4E4D-BCFC-7163C4FE4467}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
