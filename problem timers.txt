@@ -15,3 +15,4 @@ __191. Number of 1 Bits - 20 min (googled library solution) - 80 min (watched yo
 876. Middle of the Linked List - 8 min
 __142. Linked List Cycle II - naive 8 min [time O(n), space O(n)] / 110 min (after several youtube videos) [time O(n), space O(1)]
 976. Largest Perimeter Triangle - 20 min [time O(n + n*logn), space O(1)]
+1779. Find Nearest Point That Has the Same X or Y Coordinate - 8 min [time O(n), space O(1)]

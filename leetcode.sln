@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_142. Linked List Cycle II"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_976. Largest Perimeter Triangle", "problems\_976. Largest Perimeter Triangle\_976. Largest Perimeter Triangle.csproj", "{4BC8FCD9-7CFF-4E4D-BCFC-7163C4FE4467}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1779. Find Nearest Point That Has the Same X or Y Coordinate", "problems\_1779. Find Nearest Point That Has the Same X or Y Coordinate\_1779. Find Nearest Point That Has the Same X or Y Coordinate.csproj", "{CFFA2DF2-26C5-46DC-ABBA-8AAD66C69E95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -104,5 +106,9 @@ Global
 		{4BC8FCD9-7CFF-4E4D-BCFC-7163C4FE4467}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BC8FCD9-7CFF-4E4D-BCFC-7163C4FE4467}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BC8FCD9-7CFF-4E4D-BCFC-7163C4FE4467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFFA2DF2-26C5-46DC-ABBA-8AAD66C69E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFFA2DF2-26C5-46DC-ABBA-8AAD66C69E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFFA2DF2-26C5-46DC-ABBA-8AAD66C69E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFFA2DF2-26C5-46DC-ABBA-8AAD66C69E95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
