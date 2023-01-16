@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_976. Largest Perimeter Tri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1779. Find Nearest Point That Has the Same X or Y Coordinate", "problems\_1779. Find Nearest Point That Has the Same X or Y Coordinate\_1779. Find Nearest Point That Has the Same X or Y Coordinate.csproj", "{CFFA2DF2-26C5-46DC-ABBA-8AAD66C69E95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_350. Intersection of Two Arrays II", "problems\_350. Intersection of Two Arrays II\_350. Intersection of Two Arrays II.csproj", "{FF285E5F-52B7-4441-9B92-9BFDB37FC642}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -110,5 +112,9 @@ Global
 		{CFFA2DF2-26C5-46DC-ABBA-8AAD66C69E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFFA2DF2-26C5-46DC-ABBA-8AAD66C69E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFFA2DF2-26C5-46DC-ABBA-8AAD66C69E95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF285E5F-52B7-4441-9B92-9BFDB37FC642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF285E5F-52B7-4441-9B92-9BFDB37FC642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF285E5F-52B7-4441-9B92-9BFDB37FC642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF285E5F-52B7-4441-9B92-9BFDB37FC642}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
