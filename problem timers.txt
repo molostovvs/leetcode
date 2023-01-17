@@ -28,3 +28,4 @@ _142. Linked List Cycle II - naive 8 min [time O(n), space O(n)] / 110 min (afte
 1502. Can Make Arithmetic Progression From Sequence - 4 min [O(nlogn + n), O(sorting)]
 _202. Happy Number - 20 min [O(log n), O(log n)] / 55 min [O(log n), O(1)]
 1790. Check if One String Swap Can Make Strings Equal - 25 min [O(n), O(1)] / 12 min (checked solution without list) [O(n), O(1)]
+566. Reshape the Matrix - 35 min [O(n*m), O(1)]
