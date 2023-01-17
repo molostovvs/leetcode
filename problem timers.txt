@@ -1,3 +1,7 @@
+General:
+[O(x), O(y)] where O(x) - time, O(y) - space
+__ prefix means that i did not cope with the task myself
+
 1480. Running Sum of 1d Array - 5min
 __724. Find Pivot Index - 100 min (spied solution)
 205. Isomorphic Strings - 25 min
@@ -19,3 +23,4 @@ __142. Linked List Cycle II - naive 8 min [time O(n), space O(n)] / 110 min (aft
 350. Intersection of Two Arrays II - 28 min [time O(n*m^2?), space O(m)] / 40 min (after googling) this algorithm is better for sorted arrays [time O(n*logn + m*logm), space O(sorting)] and when sorted [time O(n + m), space O(1)] / 40 min (after spying another solutions) [time O(n+m), space O(n)]
 121. Best Time to Buy and Sell Stock - 100 min [time O(n), space O(1)] / 10 min (for optimized variables) [time O(n), space O(1)]
 409. Longest Palindrome - 25 min [time O(n), space O(1)]
+1822. Sign of the Product of an Array - 13 min [O(n), O(1)]
