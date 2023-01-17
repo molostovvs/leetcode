@@ -24,3 +24,4 @@ __142. Linked List Cycle II - naive 8 min [time O(n), space O(n)] / 110 min (aft
 121. Best Time to Buy and Sell Stock - 100 min [time O(n), space O(1)] / 10 min (for optimized variables) [time O(n), space O(1)]
 409. Longest Palindrome - 25 min [time O(n), space O(1)]
 1822. Sign of the Product of an Array - 13 min [O(n), O(1)]
+1502. Can Make Arithmetic Progression From Sequence - 4 min [O(nlogn + n), O(sorting)] 

@@ -44,6 +44,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_409. Longest Palindrome", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1822. Sign of the Product of an Array", "problems\_1822. Sign of the Product of an Array\_1822. Sign of the Product of an Array.csproj", "{625C0579-D019-4C63-9C2F-8D917A137E38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1502. Can Make Arithmetic Progression From Sequence", "problems\_1502. Can Make Arithmetic Progression From Sequence\_1502. Can Make Arithmetic Progression From Sequence.csproj", "{A09FE7DF-92DC-4ADC-B7FE-26E485313787}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -134,5 +136,9 @@ Global
 		{625C0579-D019-4C63-9C2F-8D917A137E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{625C0579-D019-4C63-9C2F-8D917A137E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{625C0579-D019-4C63-9C2F-8D917A137E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A09FE7DF-92DC-4ADC-B7FE-26E485313787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A09FE7DF-92DC-4ADC-B7FE-26E485313787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A09FE7DF-92DC-4ADC-B7FE-26E485313787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A09FE7DF-92DC-4ADC-B7FE-26E485313787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
