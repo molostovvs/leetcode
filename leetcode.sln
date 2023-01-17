@@ -40,6 +40,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_350. Intersection of Two A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_121. Best Time to Buy and Sell Stock", "problems\_121. Best Time to Buy and Sell Stock\_121. Best Time to Buy and Sell Stock.csproj", "{C28F98A5-0A20-4211-A1B2-0F48E1354BC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_409. Longest Palindrome", "problems\_409. Longest Palindrome\_409. Longest Palindrome.csproj", "{54BD27B0-8D0D-4CB7-99A9-9BFAEDD5293C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -122,5 +124,9 @@ Global
 		{C28F98A5-0A20-4211-A1B2-0F48E1354BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C28F98A5-0A20-4211-A1B2-0F48E1354BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C28F98A5-0A20-4211-A1B2-0F48E1354BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54BD27B0-8D0D-4CB7-99A9-9BFAEDD5293C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54BD27B0-8D0D-4CB7-99A9-9BFAEDD5293C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54BD27B0-8D0D-4CB7-99A9-9BFAEDD5293C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54BD27B0-8D0D-4CB7-99A9-9BFAEDD5293C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
