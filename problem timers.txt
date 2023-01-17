@@ -1,5 +1,6 @@
 General:
 [O(x), O(y)] where O(x) - time, O(y) - space
+_ prefix means that i cope with the task, but there was a better solution
 __ prefix means that i did not cope with the task myself
 
 1480. Running Sum of 1d Array - 5min
@@ -17,11 +18,12 @@ __191. Number of 1 Bits - 20 min (googled library solution) - 80 min (watched yo
 1281. Subtract the Product and Sum of Digits of an Integer - 16 min
 88. Merge Sorted Array - 15 min / 35 min (youtube video for time O(n) and space O(1))
 876. Middle of the Linked List - 8 min
-__142. Linked List Cycle II - naive 8 min [time O(n), space O(n)] / 110 min (after several youtube videos) [time O(n), space O(1)]
+_142. Linked List Cycle II - naive 8 min [time O(n), space O(n)] / 110 min (after several youtube videos) [time O(n), space O(1)]
 976. Largest Perimeter Triangle - 20 min [time O(n + n*logn), space O(1)]
 1779. Find Nearest Point That Has the Same X or Y Coordinate - 8 min [time O(n), space O(1)]
 350. Intersection of Two Arrays II - 28 min [time O(n*m^2?), space O(m)] / 40 min (after googling) this algorithm is better for sorted arrays [time O(n*logn + m*logm), space O(sorting)] and when sorted [time O(n + m), space O(1)] / 40 min (after spying another solutions) [time O(n+m), space O(n)]
 121. Best Time to Buy and Sell Stock - 100 min [time O(n), space O(1)] / 10 min (for optimized variables) [time O(n), space O(1)]
 409. Longest Palindrome - 25 min [time O(n), space O(1)]
 1822. Sign of the Product of an Array - 13 min [O(n), O(1)]
-1502. Can Make Arithmetic Progression From Sequence - 4 min [O(nlogn + n), O(sorting)] 
+1502. Can Make Arithmetic Progression From Sequence - 4 min [O(nlogn + n), O(sorting)]
+_202. Happy Number - 20 min [O(log n), O(log n)] / 55 min [O(log n), O(1)]
