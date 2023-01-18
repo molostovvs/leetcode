@@ -64,6 +64,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1232. Check If It Is a Str
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_36. Valid Sudoku", "problems\_36. Valid Sudoku\_36. Valid Sudoku.csproj", "{89A84FC1-C0A1-488B-9515-5559DC7511BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_704. Binary Search", "problems\_704. Binary Search\_704. Binary Search.csproj", "{445BBAA9-3A0E-4A33-9CB9-870872C6D5D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -194,5 +196,9 @@ Global
 		{89A84FC1-C0A1-488B-9515-5559DC7511BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89A84FC1-C0A1-488B-9515-5559DC7511BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89A84FC1-C0A1-488B-9515-5559DC7511BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{445BBAA9-3A0E-4A33-9CB9-870872C6D5D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445BBAA9-3A0E-4A33-9CB9-870872C6D5D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445BBAA9-3A0E-4A33-9CB9-870872C6D5D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445BBAA9-3A0E-4A33-9CB9-870872C6D5D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
