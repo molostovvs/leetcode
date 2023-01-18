@@ -56,6 +56,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_118. Pascals Triangle", "p
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_589. N-ary Tree Preorder Traversal", "problems\_589. N-ary Tree Preorder Traversal\_589. N-ary Tree Preorder Traversal.csproj", "{FEFB248F-1C47-4243-92A0-9B97F1819BDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_102. Binary Tree Level Order Traversal", "problems\_102. Binary Tree Level Order Traversal\_102. Binary Tree Level Order Traversal.csproj", "{811BD7D1-C963-4C0A-A609-85FC11032094}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -170,5 +172,9 @@ Global
 		{FEFB248F-1C47-4243-92A0-9B97F1819BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEFB248F-1C47-4243-92A0-9B97F1819BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEFB248F-1C47-4243-92A0-9B97F1819BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{811BD7D1-C963-4C0A-A609-85FC11032094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{811BD7D1-C963-4C0A-A609-85FC11032094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{811BD7D1-C963-4C0A-A609-85FC11032094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{811BD7D1-C963-4C0A-A609-85FC11032094}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
