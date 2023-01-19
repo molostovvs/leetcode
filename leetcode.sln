@@ -74,6 +74,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_387. First Unique Characte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_383. Ransom Note", "problems\_383. Ransom Note\_383. Ransom Note.csproj", "{A4DCD84F-0B53-476A-B905-F301A53C8FF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_242. Valid Anagram", "problems\_242. Valid Anagram\_242. Valid Anagram.csproj", "{18AB23D4-E5B6-47E9-944D-22396A1C0FC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -224,5 +226,9 @@ Global
 		{A4DCD84F-0B53-476A-B905-F301A53C8FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4DCD84F-0B53-476A-B905-F301A53C8FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4DCD84F-0B53-476A-B905-F301A53C8FF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18AB23D4-E5B6-47E9-944D-22396A1C0FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18AB23D4-E5B6-47E9-944D-22396A1C0FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18AB23D4-E5B6-47E9-944D-22396A1C0FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18AB23D4-E5B6-47E9-944D-22396A1C0FC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
