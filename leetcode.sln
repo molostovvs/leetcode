@@ -76,6 +76,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_383. Ransom Note", "proble
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_242. Valid Anagram", "problems\_242. Valid Anagram\_242. Valid Anagram.csproj", "{18AB23D4-E5B6-47E9-944D-22396A1C0FC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1588. Sum of All Odd Length Subarrays", "problems\_1588. Sum of All Odd Length Subarrays\_1588. Sum of All Odd Length Subarrays.csproj", "{42DDE401-0B7C-459E-9591-F50ED949F9B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -230,5 +232,9 @@ Global
 		{18AB23D4-E5B6-47E9-944D-22396A1C0FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18AB23D4-E5B6-47E9-944D-22396A1C0FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18AB23D4-E5B6-47E9-944D-22396A1C0FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42DDE401-0B7C-459E-9591-F50ED949F9B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42DDE401-0B7C-459E-9591-F50ED949F9B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42DDE401-0B7C-459E-9591-F50ED949F9B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42DDE401-0B7C-459E-9591-F50ED949F9B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
