@@ -78,6 +78,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_242. Valid Anagram", "prob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1588. Sum of All Odd Length Subarrays", "problems\_1588. Sum of All Odd Length Subarrays\_1588. Sum of All Odd Length Subarrays.csproj", "{42DDE401-0B7C-459E-9591-F50ED949F9B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_283. Move Zeroes", "problems\_283. Move Zeroes\_283. Move Zeroes.csproj", "{A97667DC-057D-401D-8D6C-925DFB6C7828}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -236,5 +238,9 @@ Global
 		{42DDE401-0B7C-459E-9591-F50ED949F9B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42DDE401-0B7C-459E-9591-F50ED949F9B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42DDE401-0B7C-459E-9591-F50ED949F9B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A97667DC-057D-401D-8D6C-925DFB6C7828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A97667DC-057D-401D-8D6C-925DFB6C7828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A97667DC-057D-401D-8D6C-925DFB6C7828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A97667DC-057D-401D-8D6C-925DFB6C7828}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
