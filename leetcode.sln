@@ -68,6 +68,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_74. Search a 2D Matrix", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_704. Binary Search", "problems\_704. Binary Search\_704. Binary Search.csproj", "{445BBAA9-3A0E-4A33-9CB9-870872C6D5D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_278. First Bad Version", "problems\_278. First Bad Version\_278. First Bad Version.csproj", "{18CD7B80-BC40-4607-BB87-26373189BB9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -206,5 +208,9 @@ Global
 		{445BBAA9-3A0E-4A33-9CB9-870872C6D5D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{445BBAA9-3A0E-4A33-9CB9-870872C6D5D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{445BBAA9-3A0E-4A33-9CB9-870872C6D5D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18CD7B80-BC40-4607-BB87-26373189BB9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18CD7B80-BC40-4607-BB87-26373189BB9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18CD7B80-BC40-4607-BB87-26373189BB9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18CD7B80-BC40-4607-BB87-26373189BB9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
