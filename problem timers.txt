@@ -38,3 +38,4 @@ _496. Next Greater Element I - 15 min brute force [O(n + m*m), O(1)] / 50 min (s
 74. Search a 2D Matrix - 60 min [O(log (n*m)), O(1)]
 __704. Binary Search - 30 min (googled) [O(log n), O(1)]
 278. First Bad Version - 10 min [O(log n), O(1)]
+387. First Unique Character in a String - 20 min [O(n), O(1)]
