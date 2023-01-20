@@ -94,6 +94,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_141. Linked List Cycle", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_203. Remove Linked List Elements", "problems\_203. Remove Linked List Elements\_203. Remove Linked List Elements.csproj", "{1068AD05-38FB-46A3-A165-FD03E816BF65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_491. Non-decreasing Subsequences", "problems\_491. Non-decreasing Subsequences\_491. Non-decreasing Subsequences.csproj", "{3BE78A65-1156-4634-BF73-50720D2F41CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -284,5 +286,9 @@ Global
 		{1068AD05-38FB-46A3-A165-FD03E816BF65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1068AD05-38FB-46A3-A165-FD03E816BF65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1068AD05-38FB-46A3-A165-FD03E816BF65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE78A65-1156-4634-BF73-50720D2F41CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE78A65-1156-4634-BF73-50720D2F41CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE78A65-1156-4634-BF73-50720D2F41CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE78A65-1156-4634-BF73-50720D2F41CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
