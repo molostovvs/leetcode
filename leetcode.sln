@@ -98,6 +98,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_491. Non-decreasing Subseq
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_49. Group Anagrams", "problems\_49. Group Anagrams\_49. Group Anagrams.csproj", "{9E0C5C2E-BCEC-4F2E-96F3-A36B3CAEBC0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_347. Top K Frequent Elements", "problems\_347. Top K Frequent Elements\_347. Top K Frequent Elements.csproj", "{23AE03E1-A60C-409D-A681-E71B2E7693E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -296,5 +298,9 @@ Global
 		{9E0C5C2E-BCEC-4F2E-96F3-A36B3CAEBC0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E0C5C2E-BCEC-4F2E-96F3-A36B3CAEBC0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E0C5C2E-BCEC-4F2E-96F3-A36B3CAEBC0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23AE03E1-A60C-409D-A681-E71B2E7693E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23AE03E1-A60C-409D-A681-E71B2E7693E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23AE03E1-A60C-409D-A681-E71B2E7693E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23AE03E1-A60C-409D-A681-E71B2E7693E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
