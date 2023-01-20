@@ -90,6 +90,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_235. Lowest Common Ancesto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1572. Matrix Diagonal Sum", "problems\_1572. Matrix Diagonal Sum\_1572. Matrix Diagonal Sum.csproj", "{4B32BBAB-1CE3-442E-BC2E-E2F06FC29B0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_141. Linked List Cycle", "problems\_141. Linked List Cycle\_141. Linked List Cycle.csproj", "{ED323848-D322-4FC7-84EB-B07444CE049A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -272,5 +274,9 @@ Global
 		{4B32BBAB-1CE3-442E-BC2E-E2F06FC29B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B32BBAB-1CE3-442E-BC2E-E2F06FC29B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B32BBAB-1CE3-442E-BC2E-E2F06FC29B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED323848-D322-4FC7-84EB-B07444CE049A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED323848-D322-4FC7-84EB-B07444CE049A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED323848-D322-4FC7-84EB-B07444CE049A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED323848-D322-4FC7-84EB-B07444CE049A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
