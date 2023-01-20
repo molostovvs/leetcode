@@ -52,3 +52,4 @@ __98. Validate Binary Search Tree - 90 min [O(n), O(1)]
 21. Merge Two Sorted Lists - 10 min [O(n + m), O(1)]
 __203. Remove Linked List Elements - 80 min [O(n), O(1)]
 __491. Non-decreasing Subsequences - cant understand this now
+__49. Group Anagrams - 90 min [O(n), O(n)]
