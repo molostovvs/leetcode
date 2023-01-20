@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <RootNamespace>_235._Lowest_Common_Ancestor_of_a_Binary_Search_Tree</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentAssertions" Version="6.9.0" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.1" />
+      <PackageReference Include="NUnit" Version="3.13.3" />
+    </ItemGroup>
+
+</Project>
