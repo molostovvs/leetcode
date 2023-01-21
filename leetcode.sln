@@ -102,6 +102,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_347. Top K Frequent Elemen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_733. Flood Fill", "problems\_733. Flood Fill\_733. Flood Fill.csproj", "{1FABE489-D0B6-4859-85B6-C6CA3E7B4F9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_200. Number of Islands", "problems\_200. Number of Islands\_200. Number of Islands.csproj", "{7E495917-0131-4F0F-A950-ECDD1B9B10A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -308,5 +310,9 @@ Global
 		{1FABE489-D0B6-4859-85B6-C6CA3E7B4F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FABE489-D0B6-4859-85B6-C6CA3E7B4F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FABE489-D0B6-4859-85B6-C6CA3E7B4F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E495917-0131-4F0F-A950-ECDD1B9B10A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E495917-0131-4F0F-A950-ECDD1B9B10A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E495917-0131-4F0F-A950-ECDD1B9B10A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E495917-0131-4F0F-A950-ECDD1B9B10A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
