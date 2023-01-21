@@ -20,7 +20,7 @@ public class ListNode
     }
 }
 
-public class Solution
+/*public class Solution
 {
     public ListNode ReverseList(ListNode head, ListNode reversed = null)
     {
@@ -36,6 +36,26 @@ public class Solution
         head.next = reversed;
 
         return ReverseList(newHead, head);
+    }
+}*/
+
+// 2nd attempt [O(n), O(1)]
+public class Solution
+{
+    public ListNode ReverseList(ListNode head)
+    {
+        var next = head?.next;
+        ListNode prev = null;
+
+        while (head != null)
+        {
+            head.next = prev;
+            prev = head;
+            head = next;
+            next = head?.next;
+        }
+
+        return prev;
     }
 }
 

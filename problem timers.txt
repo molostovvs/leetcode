@@ -2,6 +2,7 @@ General:
 [O(x), O(y)] where O(x) - time, O(y) - space
 _ prefix means that i cope with the task, but there was a better solution
 __ prefix means that i did not cope with the task myself
+>> next attempt took X min
 
 1480. Running Sum of 1d Array - 5min
 __724. Find Pivot Index - 100 min (spied solution)
@@ -13,7 +14,7 @@ __724. Find Pivot Index - 100 min (spied solution)
 1. Two Sum - 5 min (another 10 min for O(n) solution)
 __53. Maximum Subarray - 40 min (spied solution)
 __21. Merge Two Sorted Lists - 50 min (spied solution)
-206. Reverse Linked List - 83 min
+206. Reverse Linked List - 83 min >> 10 min [O(n), O(1)]
 __191. Number of 1 Bits - 20 min (googled library solution) - 80 min (watched youtube video for all possible solutions)
 1281. Subtract the Product and Sum of Digits of an Integer - 16 min
 88. Merge Sorted Array - 15 min / 35 min (youtube video for time O(n) and space O(1))
