@@ -104,6 +104,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_733. Flood Fill", "problem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_200. Number of Islands", "problems\_200. Number of Islands\_200. Number of Islands.csproj", "{7E495917-0131-4F0F-A950-ECDD1B9B10A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1768. Merge Strings Alternately", "problems\_1768. Merge Strings Alternately\_1768. Merge Strings Alternately.csproj", "{2A94D0EA-C0CE-446C-87CF-DF87FDBE1DC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -314,5 +316,9 @@ Global
 		{7E495917-0131-4F0F-A950-ECDD1B9B10A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E495917-0131-4F0F-A950-ECDD1B9B10A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E495917-0131-4F0F-A950-ECDD1B9B10A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A94D0EA-C0CE-446C-87CF-DF87FDBE1DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A94D0EA-C0CE-446C-87CF-DF87FDBE1DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A94D0EA-C0CE-446C-87CF-DF87FDBE1DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A94D0EA-C0CE-446C-87CF-DF87FDBE1DC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
