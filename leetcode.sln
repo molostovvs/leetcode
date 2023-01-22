@@ -120,6 +120,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_953. Verifying an Alien Di
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_509. Fibonacci Number", "problems\_509. Fibonacci Number\_509. Fibonacci Number.csproj", "{A0FBC9FA-02E3-48F0-9FB8-18E03E905E8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_70. Climbing Stairs", "problems\_70. Climbing Stairs\_70. Climbing Stairs.csproj", "{657DBBD0-132F-4260-BF49-DF7A9607F9FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -362,5 +364,9 @@ Global
 		{A0FBC9FA-02E3-48F0-9FB8-18E03E905E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0FBC9FA-02E3-48F0-9FB8-18E03E905E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0FBC9FA-02E3-48F0-9FB8-18E03E905E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657DBBD0-132F-4260-BF49-DF7A9607F9FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657DBBD0-132F-4260-BF49-DF7A9607F9FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657DBBD0-132F-4260-BF49-DF7A9607F9FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657DBBD0-132F-4260-BF49-DF7A9607F9FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
