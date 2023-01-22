@@ -114,6 +114,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_83. Remove Duplicates from
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_709. To Lower Case", "problems\_709. To Lower Case\_709. To Lower Case.csproj", "{82A56674-4003-4977-8DA9-11A8BC154198}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1309. Decrypt String from Alphabet to Integer Mapping", "problems\_1309. Decrypt String from Alphabet to Integer Mapping\_1309. Decrypt String from Alphabet to Integer Mapping.csproj", "{E391B891-EFCB-4810-9B04-43E21799EAE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -344,5 +346,9 @@ Global
 		{82A56674-4003-4977-8DA9-11A8BC154198}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82A56674-4003-4977-8DA9-11A8BC154198}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82A56674-4003-4977-8DA9-11A8BC154198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E391B891-EFCB-4810-9B04-43E21799EAE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E391B891-EFCB-4810-9B04-43E21799EAE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E391B891-EFCB-4810-9B04-43E21799EAE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E391B891-EFCB-4810-9B04-43E21799EAE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
