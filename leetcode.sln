@@ -142,6 +142,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_94. Binary Tree Inorder Tr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_145. Binary Tree Postorder Traversal", "problems\_145. Binary Tree Postorder Traversal\_145. Binary Tree Postorder Traversal.csproj", "{9F7D4A35-78BC-46B0-BA40-73DD3E154772}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_238. Product of Array Except Self", "problems\_238. Product of Array Except Self\_238. Product of Array Except Self.csproj", "{7CF92B27-F1D3-42F3-984B-7CCA65507528}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -428,5 +430,9 @@ Global
 		{9F7D4A35-78BC-46B0-BA40-73DD3E154772}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F7D4A35-78BC-46B0-BA40-73DD3E154772}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F7D4A35-78BC-46B0-BA40-73DD3E154772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CF92B27-F1D3-42F3-984B-7CCA65507528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CF92B27-F1D3-42F3-984B-7CCA65507528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CF92B27-F1D3-42F3-984B-7CCA65507528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CF92B27-F1D3-42F3-984B-7CCA65507528}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

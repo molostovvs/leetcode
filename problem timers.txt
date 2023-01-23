@@ -3,6 +3,7 @@ General:
 _ prefix means that i cope with the task, but there was a better solution
 __ prefix means that i did not cope with the task myself
 >> next attempt took X min
+/ for follow-ups or alternatives
 
 1480. Running Sum of 1d Array - 5min
 __724. Find Pivot Index - 100 min (spied solution)
@@ -76,3 +77,4 @@ _1290. Convert Binary Number in a Linked List to Integer - 10 min [O(n), O(n)] /
 144. Binary Tree Preorder Traversal -  10 min recursive [O(n), O(n)] / 10 min iteratively [O(n), O(n)]
 _94. Binary Tree Inorder Traversal - 10 min recursively [O(n), O(n)] / 40 min (googled) [O(n), O(n)]
 _145. Binary Tree Postorder Traversal - 5 min recursively [O(n), O(n)] / 40 min (googled) [O(n), O(n)]
+_238. Product of Array Except Self - 30 min [O(n), O(n)] / 30 min (googled) [O(n), O(1)]
