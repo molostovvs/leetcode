@@ -138,6 +138,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_62. Unique Paths", "proble
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_144. Binary Tree Preorder Traversal", "problems\_144. Binary Tree Preorder Traversal\_144. Binary Tree Preorder Traversal.csproj", "{5AD9A73D-CB22-4678-893B-815F0293CAFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_94. Binary Tree Inorder Traversal", "problems\_94. Binary Tree Inorder Traversal\_94. Binary Tree Inorder Traversal.csproj", "{7A2FFF99-9A5A-47E3-97A8-5B7134CB7277}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -416,5 +418,9 @@ Global
 		{5AD9A73D-CB22-4678-893B-815F0293CAFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AD9A73D-CB22-4678-893B-815F0293CAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AD9A73D-CB22-4678-893B-815F0293CAFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A2FFF99-9A5A-47E3-97A8-5B7134CB7277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2FFF99-9A5A-47E3-97A8-5B7134CB7277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2FFF99-9A5A-47E3-97A8-5B7134CB7277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2FFF99-9A5A-47E3-97A8-5B7134CB7277}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
