@@ -70,3 +70,4 @@ __70. Climbing Stairs - 80 min [O(n), O(n)] / 10 min [O(n), O(1)]
 232. Implement Queue using Stacks - 20 min [O(n^2), O(n)] but amortized time is O(1)
 _1290. Convert Binary Number in a Linked List to Integer - 10 min [O(n), O(n)] / 10 min [O(n), O(1)]
 104. Maximum Depth of Binary Tree - 10 min [O(n), O(h)]
+404. Sum of Left Leaves - 40 min [O(n), O(h)]

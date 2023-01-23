@@ -130,6 +130,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1290. Convert Binary Numbe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_104. Maximum Depth of Binary Tree", "problems\_104. Maximum Depth of Binary Tree\_104. Maximum Depth of Binary Tree.csproj", "{CBDC8755-05A1-4168-B128-2D681F67DBB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_404. Sum of Left Leaves", "problems\_404. Sum of Left Leaves\_404. Sum of Left Leaves.csproj", "{39802C4F-A8B0-49A2-8C9C-B90FC9710DCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -392,5 +394,9 @@ Global
 		{CBDC8755-05A1-4168-B128-2D681F67DBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBDC8755-05A1-4168-B128-2D681F67DBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBDC8755-05A1-4168-B128-2D681F67DBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39802C4F-A8B0-49A2-8C9C-B90FC9710DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39802C4F-A8B0-49A2-8C9C-B90FC9710DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39802C4F-A8B0-49A2-8C9C-B90FC9710DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39802C4F-A8B0-49A2-8C9C-B90FC9710DCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
