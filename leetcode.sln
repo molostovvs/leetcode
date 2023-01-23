@@ -132,6 +132,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_104. Maximum Depth of Bina
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_404. Sum of Left Leaves", "problems\_404. Sum of Left Leaves\_404. Sum of Left Leaves.csproj", "{39802C4F-A8B0-49A2-8C9C-B90FC9710DCC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_746. Min Cost Climbing Stairs", "problems\_746. Min Cost Climbing Stairs\_746. Min Cost Climbing Stairs.csproj", "{1F2A4D3F-5288-4A62-A429-D26F1CBD5435}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -398,5 +400,9 @@ Global
 		{39802C4F-A8B0-49A2-8C9C-B90FC9710DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39802C4F-A8B0-49A2-8C9C-B90FC9710DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39802C4F-A8B0-49A2-8C9C-B90FC9710DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F2A4D3F-5288-4A62-A429-D26F1CBD5435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F2A4D3F-5288-4A62-A429-D26F1CBD5435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F2A4D3F-5288-4A62-A429-D26F1CBD5435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F2A4D3F-5288-4A62-A429-D26F1CBD5435}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
