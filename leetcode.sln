@@ -128,6 +128,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_232. Implement Queue using
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1290. Convert Binary Number in a Linked List to Integer", "problems\_1290. Convert Binary Number in a Linked List to Integer\_1290. Convert Binary Number in a Linked List to Integer.csproj", "{8D9F2C97-C0AD-4F9D-B8F0-EF2263348572}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_104. Maximum Depth of Binary Tree", "problems\_104. Maximum Depth of Binary Tree\_104. Maximum Depth of Binary Tree.csproj", "{CBDC8755-05A1-4168-B128-2D681F67DBB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -386,5 +388,9 @@ Global
 		{8D9F2C97-C0AD-4F9D-B8F0-EF2263348572}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D9F2C97-C0AD-4F9D-B8F0-EF2263348572}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D9F2C97-C0AD-4F9D-B8F0-EF2263348572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBDC8755-05A1-4168-B128-2D681F67DBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBDC8755-05A1-4168-B128-2D681F67DBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBDC8755-05A1-4168-B128-2D681F67DBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBDC8755-05A1-4168-B128-2D681F67DBB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
