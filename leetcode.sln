@@ -126,6 +126,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_20. Valid Parentheses", "p
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_232. Implement Queue using Stacks", "problems\_232. Implement Queue using Stacks\_232. Implement Queue using Stacks.csproj", "{9233A0B0-1AB9-4E36-8DA0-F0B6870A7C59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1290. Convert Binary Number in a Linked List to Integer", "problems\_1290. Convert Binary Number in a Linked List to Integer\_1290. Convert Binary Number in a Linked List to Integer.csproj", "{8D9F2C97-C0AD-4F9D-B8F0-EF2263348572}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -380,5 +382,9 @@ Global
 		{9233A0B0-1AB9-4E36-8DA0-F0B6870A7C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9233A0B0-1AB9-4E36-8DA0-F0B6870A7C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9233A0B0-1AB9-4E36-8DA0-F0B6870A7C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D9F2C97-C0AD-4F9D-B8F0-EF2263348572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9F2C97-C0AD-4F9D-B8F0-EF2263348572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9F2C97-C0AD-4F9D-B8F0-EF2263348572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9F2C97-C0AD-4F9D-B8F0-EF2263348572}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
