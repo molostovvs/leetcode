@@ -74,4 +74,5 @@ _1290. Convert Binary Number in a Linked List to Integer - 10 min [O(n), O(n)] /
 746. Min Cost Climbing Stairs - 10 min [O(n), O(n)] / 10 min [O(n), O(1)]
 62. Unique Paths - 40 min [O(n*m), O(n*m)]
 144. Binary Tree Preorder Traversal -  10 min recursive [O(n), O(n)] / 10 min iteratively [O(n), O(n)]
-94. Binary Tree Inorder Traversal - 10 min recursively [O(n), O(n)] / 40 min (googled) [O(n), O(n)]
+_94. Binary Tree Inorder Traversal - 10 min recursively [O(n), O(n)] / 40 min (googled) [O(n), O(n)]
+_145. Binary Tree Postorder Traversal - 5 min recursively [O(n), O(n)] / 40 min (googled) [O(n), O(n)]
