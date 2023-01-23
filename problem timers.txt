@@ -18,7 +18,7 @@ __21. Merge Two Sorted Lists - 50 min (spied solution)
 __191. Number of 1 Bits - 20 min (googled library solution) - 80 min (watched youtube video for all possible solutions)
 1281. Subtract the Product and Sum of Digits of an Integer - 16 min
 88. Merge Sorted Array - 15 min / 35 min (youtube video for time O(n) and space O(1))
-876. Middle of the Linked List - 8 min
+876. Middle of the Linked List - 8 min >> 5 min
 _142. Linked List Cycle II - naive 8 min [time O(n), space O(n)] / 110 min (after several youtube videos) [time O(n), space O(1)]
 976. Largest Perimeter Triangle - 20 min [time O(n + n*logn), space O(1)]
 1779. Find Nearest Point That Has the Same X or Y Coordinate - 8 min [time O(n), space O(1)]
