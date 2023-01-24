@@ -11,7 +11,7 @@ __724. Find Pivot Index - 100 min (spied solution)
 392. Is Subsequence - 11 min
 1523. Count Odd Numbers in an Interval Range - 15 min
 1491. Average Salary Excluding the Minimum and Maximum Salary - 6 min
-217. Contains Duplicate - 2 min
+217. Contains Duplicate - 2 min >> 1 min
 1. Two Sum - 5 min (another 10 min for O(n) solution)
 __53. Maximum Subarray - 40 min (spied solution)
 __21. Merge Two Sorted Lists - 50 min (spied solution)
