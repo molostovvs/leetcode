@@ -148,6 +148,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1356. Sort Integers by The
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_438. Find All Anagrams in a String", "problems\_438. Find All Anagrams in a String\_438. Find All Anagrams in a String.csproj", "{35F32CD5-A4EC-418C-B5F8-24D7E4FD22DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_424. Longest Repeating Character Replacement", "problems\_424. Longest Repeating Character Replacement\_424. Longest Repeating Character Replacement.csproj", "{72FCCB40-0C07-4927-A460-AA413A9B293C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -446,5 +448,9 @@ Global
 		{35F32CD5-A4EC-418C-B5F8-24D7E4FD22DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35F32CD5-A4EC-418C-B5F8-24D7E4FD22DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35F32CD5-A4EC-418C-B5F8-24D7E4FD22DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72FCCB40-0C07-4927-A460-AA413A9B293C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72FCCB40-0C07-4927-A460-AA413A9B293C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72FCCB40-0C07-4927-A460-AA413A9B293C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72FCCB40-0C07-4927-A460-AA413A9B293C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
