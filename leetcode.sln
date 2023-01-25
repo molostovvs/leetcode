@@ -158,6 +158,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_303. Range Sum Query - Imm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_299. Bulls and Cows", "problems\_299. Bulls and Cows\_299. Bulls and Cows.csproj", "{531F140B-B8EC-4B05-8D88-C150A5E9280B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_226. Invert Binary Tree", "problems\_226. Invert Binary Tree\_226. Invert Binary Tree.csproj", "{0AE47939-9860-427E-9FBF-E994CAB2E6BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -476,5 +478,9 @@ Global
 		{531F140B-B8EC-4B05-8D88-C150A5E9280B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{531F140B-B8EC-4B05-8D88-C150A5E9280B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{531F140B-B8EC-4B05-8D88-C150A5E9280B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE47939-9860-427E-9FBF-E994CAB2E6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE47939-9860-427E-9FBF-E994CAB2E6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE47939-9860-427E-9FBF-E994CAB2E6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE47939-9860-427E-9FBF-E994CAB2E6BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
