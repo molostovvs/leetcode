@@ -82,3 +82,4 @@ _238. Product of Array Except Self - 30 min [O(n), O(n)] / 30 min (googled) [O(n
 __438. Find All Anagrams in a String - 85 min [O(n), O(1)]
 __424. Longest Repeating Character Replacement - 90 min [O(n), O(alphabet)]
 101. Symmetric Tree - 10 min recursively [O(n), O(n)], 5 min iteratively [O(n), O(n)]
+1603. Design Parking System - 5 min [O(n), O(n)] / 5 min [O(n), O(1)]
