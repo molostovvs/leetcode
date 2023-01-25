@@ -168,6 +168,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_150. Evaluate Reverse Poli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_22. Generate Parentheses", "problems\_22. Generate Parentheses\_22. Generate Parentheses.csproj", "{43271430-CB31-4051-AE2B-0D48C1A26963}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_739. Daily Temperatures", "problems\_739. Daily Temperatures\_739. Daily Temperatures.csproj", "{632E580F-5530-40AD-9134-AB9C3E699968}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -506,5 +508,9 @@ Global
 		{43271430-CB31-4051-AE2B-0D48C1A26963}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43271430-CB31-4051-AE2B-0D48C1A26963}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43271430-CB31-4051-AE2B-0D48C1A26963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{632E580F-5530-40AD-9134-AB9C3E699968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632E580F-5530-40AD-9134-AB9C3E699968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632E580F-5530-40AD-9134-AB9C3E699968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632E580F-5530-40AD-9134-AB9C3E699968}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
