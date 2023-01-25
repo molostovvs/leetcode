@@ -160,6 +160,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_299. Bulls and Cows", "pro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_226. Invert Binary Tree", "problems\_226. Invert Binary Tree\_226. Invert Binary Tree.csproj", "{0AE47939-9860-427E-9FBF-E994CAB2E6BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_112. Path Sum", "problems\_112. Path Sum\_112. Path Sum.csproj", "{DF10C795-1AAA-446E-A5BD-6D70E3A84D36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -482,5 +484,9 @@ Global
 		{0AE47939-9860-427E-9FBF-E994CAB2E6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AE47939-9860-427E-9FBF-E994CAB2E6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AE47939-9860-427E-9FBF-E994CAB2E6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF10C795-1AAA-446E-A5BD-6D70E3A84D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF10C795-1AAA-446E-A5BD-6D70E3A84D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF10C795-1AAA-446E-A5BD-6D70E3A84D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF10C795-1AAA-446E-A5BD-6D70E3A84D36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
