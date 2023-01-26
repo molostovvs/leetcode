@@ -172,6 +172,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_739. Daily Temperatures", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_844. Backspace String Compare", "problems\_844. Backspace String Compare\_844. Backspace String Compare.csproj", "{72B9E28A-B103-48B0-A0B6-3480491CDF8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_394. Decode String", "problems\_394. Decode String\_394. Decode String.csproj", "{9A03D2B3-A19D-4DFD-8BAD-D29AEDB0BC60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -518,5 +520,9 @@ Global
 		{72B9E28A-B103-48B0-A0B6-3480491CDF8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72B9E28A-B103-48B0-A0B6-3480491CDF8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72B9E28A-B103-48B0-A0B6-3480491CDF8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A03D2B3-A19D-4DFD-8BAD-D29AEDB0BC60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A03D2B3-A19D-4DFD-8BAD-D29AEDB0BC60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A03D2B3-A19D-4DFD-8BAD-D29AEDB0BC60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A03D2B3-A19D-4DFD-8BAD-D29AEDB0BC60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
