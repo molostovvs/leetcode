@@ -100,3 +100,4 @@ __394. Decode String - 70 min UNABLE TO SOLVE
 852. Peak Index in a Mountain Array - 20 min [O(log n), O(1)]
 125. Valid Palindrome - 17 min [O(n), O(n)]
 167. Two Sum II - Input Array Is Sorted - 10 min [O(n), O(1)]
+__15. 3Sum - 70 min (googled) [O(n^2), O(1)]
