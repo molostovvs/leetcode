@@ -180,6 +180,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_701. Insert into a Binary 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_374. Guess Number Higher or Lower", "problems\_374. Guess Number Higher or Lower\_374. Guess Number Higher or Lower.csproj", "{1BC622DE-023B-4DA6-955E-2B1A823B6E2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_35. Search Insert Position", "problems\_35. Search Insert Position\_35. Search Insert Position.csproj", "{3FF49CBD-1FF7-4374-A69A-7A58A8129087}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -542,5 +544,9 @@ Global
 		{1BC622DE-023B-4DA6-955E-2B1A823B6E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BC622DE-023B-4DA6-955E-2B1A823B6E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BC622DE-023B-4DA6-955E-2B1A823B6E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FF49CBD-1FF7-4374-A69A-7A58A8129087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF49CBD-1FF7-4374-A69A-7A58A8129087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF49CBD-1FF7-4374-A69A-7A58A8129087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF49CBD-1FF7-4374-A69A-7A58A8129087}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
