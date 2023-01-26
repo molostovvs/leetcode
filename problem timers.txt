@@ -97,3 +97,4 @@ __394. Decode String - 70 min UNABLE TO SOLVE
 701. Insert into a Binary Search Tree - 12 min [O(logn), O(h)]
 374. Guess Number Higher or Lower - 6 min [o(log n), O(1)]
 35. Search Insert Position - 14 min [O(log n), O(1)]
+852. Peak Index in a Mountain Array - 20 min [O(log n), O(1)]

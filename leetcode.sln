@@ -182,6 +182,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_374. Guess Number Higher o
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_35. Search Insert Position", "problems\_35. Search Insert Position\_35. Search Insert Position.csproj", "{3FF49CBD-1FF7-4374-A69A-7A58A8129087}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_852. Peak Index in a Mountain Array", "problems\_852. Peak Index in a Mountain Array\_852. Peak Index in a Mountain Array.csproj", "{65ED4D17-4CBB-4F3F-9D24-4E57A5C44F96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -548,5 +550,9 @@ Global
 		{3FF49CBD-1FF7-4374-A69A-7A58A8129087}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FF49CBD-1FF7-4374-A69A-7A58A8129087}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FF49CBD-1FF7-4374-A69A-7A58A8129087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65ED4D17-4CBB-4F3F-9D24-4E57A5C44F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65ED4D17-4CBB-4F3F-9D24-4E57A5C44F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65ED4D17-4CBB-4F3F-9D24-4E57A5C44F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65ED4D17-4CBB-4F3F-9D24-4E57A5C44F96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
