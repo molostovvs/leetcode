@@ -192,6 +192,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_15. 3Sum", "problems\_15. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_11. Container With Most Water", "problems\_11. Container With Most Water\_11. Container With Most Water.csproj", "{073FB429-5FA6-4BF8-8D31-851D1689C200}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_367. Valid Perfect Square", "problems\_367. Valid Perfect Square\_367. Valid Perfect Square.csproj", "{27B0B3F1-9416-418B-9ABB-CBCAD8EF2CBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -578,5 +580,9 @@ Global
 		{073FB429-5FA6-4BF8-8D31-851D1689C200}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{073FB429-5FA6-4BF8-8D31-851D1689C200}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{073FB429-5FA6-4BF8-8D31-851D1689C200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27B0B3F1-9416-418B-9ABB-CBCAD8EF2CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27B0B3F1-9416-418B-9ABB-CBCAD8EF2CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27B0B3F1-9416-418B-9ABB-CBCAD8EF2CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27B0B3F1-9416-418B-9ABB-CBCAD8EF2CBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
