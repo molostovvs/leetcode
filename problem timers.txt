@@ -93,3 +93,4 @@ __22. Generate Parentheses - 70 min [O(?), O(?)]
 __739. Daily Temperatures - 60 min [O(n), O(n)]
 _844. Backspace String Compare - 2 min [O(s + t), O(s + t)] / 60 min [O(n), O(1)]
 __394. Decode String - 70 min UNABLE TO SOLVE
+700. Search in a Binary Search Tree - 2 min [O(log n), O(h)]
