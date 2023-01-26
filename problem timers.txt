@@ -95,3 +95,4 @@ _844. Backspace String Compare - 2 min [O(s + t), O(s + t)] / 60 min [O(n), O(1)
 __394. Decode String - 70 min UNABLE TO SOLVE
 700. Search in a Binary Search Tree - 2 min [O(log n), O(h)]
 701. Insert into a Binary Search Tree - 12 min [O(logn), O(h)]
+374. Guess Number Higher or Lower - 6 min [o(log n), O(1)]
