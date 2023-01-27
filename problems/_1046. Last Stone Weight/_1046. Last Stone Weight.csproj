@@ -5,7 +5,6 @@
         <RootNamespace>_1046._Last_Stone_Weight</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <OutputType>Exe</OutputType>
     </PropertyGroup>
 
 </Project>

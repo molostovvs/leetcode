@@ -105,4 +105,4 @@ __15. 3Sum - 70 min (googled) [O(n^2), O(1)]
 367. Valid Perfect Square - 30 min [O(log n), O(1)]
 _1385. Find the Distance Value Between Two Arrays - 
 15 min [O(n^2), O(1)] / 10 min [O(n log n), O(1)]
-__1046. Last Stone Weight - 4u min [O(n log n), O(n)]
+__1046. Last Stone Weight - 40 min [O(n log n), O(n)]
