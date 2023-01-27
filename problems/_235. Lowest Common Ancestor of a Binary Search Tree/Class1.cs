@@ -1,8 +1,6 @@
 ﻿using FluentAssertions;
 using NUnit.Framework;
 
-namespace _235._Lowest_Common_Ancestor_of_a_Binary_Search_Tree;
-
 public class Program
 {
     public static void Main() {}
@@ -13,6 +11,13 @@ public class TreeNode
     public int val;
     public TreeNode left;
     public TreeNode right;
+
+    public TreeNode(int val, TreeNode left, TreeNode right)
+    {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
 
     public TreeNode(int x)
         => val = x;
@@ -63,9 +68,8 @@ public class Solution
         FillDictionary(dict, root.right);
     }
 }*/
-
-//googled [O(log n), O(1)]
-public class Solution
+/*//googled [O(log n), O(1)]
+public class OldSolution
 {
     public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)
     {
@@ -82,6 +86,23 @@ public class Solution
 
         return curr;
     }
+}*/
+
+//second attempt 6 min [O(log n, O(h))]
+public class Solution
+{
+    public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)
+    {
+        if ((p.val < root.val && q.val > root.val) || (p.val > root.val && q.val < root.val))
+            return root;
+
+        if (p.val == root.val || q.val == root.val)
+            return root;
+
+        if (p.val < root.val && q.val < root.val)
+            return LowestCommonAncestor(root.left, p, q);
+        return LowestCommonAncestor(root.right, p, q);
+    }
 }
 
 [TestFixture]
@@ -97,6 +118,23 @@ public class Tests
         p.right = q;
         var result = s.LowestCommonAncestor(p, p, q);
         var expected = p;
+        result.Should().Be(expected);
+    }
+
+    [Test]
+    public static void Example2()
+    {
+        var p = new TreeNode(2);
+        p.left = new TreeNode(0);
+        p.right = new TreeNode(4);
+        p.right.left = new TreeNode(3);
+        p.right.right = new TreeNode(5);
+        var q = new TreeNode(8);
+        q.left = new TreeNode(7);
+        q.right = new TreeNode(9);
+        var root = new TreeNode(6, p, q);
+        var result = s.LowestCommonAncestor(root, p, q);
+        var expected = root;
         result.Should().Be(expected);
     }
 }
