@@ -6,6 +6,7 @@ public class Program
     public static void Main() {}
 }
 
+/*//first attempt
 public class Solution
 {
     public bool IsPerfectSquare(int num)
@@ -25,6 +26,31 @@ public class Solution
             if (mid * mid > num)
                 right = mid - 1;
             if (mid * mid < num)
+                left = mid + 1;
+        }
+
+        return false;
+    }
+}*/
+
+//second attempt 3 min [O(log n), O(1)]
+public class Solution
+{
+    public bool IsPerfectSquare(int num)
+    {
+        long left = 0;
+        long right = num;
+
+        while (left <= right)
+        {
+            var mid = left + (right - left) / 2;
+            var square = mid * mid;
+            if (square == num)
+                return true;
+
+            if (square > num)
+                right = mid - 1;
+            else if (square < num)
                 left = mid + 1;
         }
 
