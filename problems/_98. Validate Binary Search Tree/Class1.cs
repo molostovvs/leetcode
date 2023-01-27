@@ -22,6 +22,7 @@ public class TreeNode
     }
 }
 
+/* //__first attempt 90 min [O(n), O(h)]
 public class Solution
 {
     public bool IsValidBST(TreeNode root, double leftThreshold = double.NegativeInfinity,
@@ -34,6 +35,21 @@ public class Solution
             return false;
 
         return IsValidBST(root.right, root.val, rightThreshold) && IsValidBST(root.left, leftThreshold, root.val);
+    }
+}*/
+
+//second attempt 5 min [O(n), O(h)]
+public class Solution
+{
+    public bool IsValidBST(TreeNode root, long leftThr = long.MinValue, long rightThr = long.MaxValue)
+    {
+        if (root is null)
+            return true;
+
+        if (root.val <= leftThr || root.val >= rightThr)
+            return false;
+
+        return IsValidBST(root.left, leftThr, root.val) && IsValidBST(root.right, root.val, rightThr);
     }
 }
 
