@@ -208,6 +208,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_14. Longest Common Prefix"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_26. Remove Duplicates from Sorted Array", "problems\_26. Remove Duplicates from Sorted Array\_26. Remove Duplicates from Sorted Array.csproj", "{A63F8E27-E157-4842-8880-1803D337165B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_66. Plus One", "problems\_66. Plus One\_66. Plus One.csproj", "{95A99FF4-5EA2-49E2-8092-4EAF78D0DE41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -626,5 +628,9 @@ Global
 		{A63F8E27-E157-4842-8880-1803D337165B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A63F8E27-E157-4842-8880-1803D337165B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A63F8E27-E157-4842-8880-1803D337165B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A99FF4-5EA2-49E2-8092-4EAF78D0DE41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A99FF4-5EA2-49E2-8092-4EAF78D0DE41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A99FF4-5EA2-49E2-8092-4EAF78D0DE41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A99FF4-5EA2-49E2-8092-4EAF78D0DE41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
