@@ -8,6 +8,7 @@ public class Program
     public static void Main() {}
 }
 
+/*
 public class Solution
 {
     public void MoveZeroes(int[] nums)
@@ -38,10 +39,29 @@ public class Solution
             }
         }
 
-        /*//non intuitive
+        /#1#/non intuitive
         for (int lastNonZeroFoundAt = 0, cur = 0; cur < nums.Length; cur++)
             if (nums[cur] != 0)
-                (nums[cur], nums[lastNonZeroFoundAt]) = (nums[lastNonZeroFoundAt++], nums[cur]);*/
+                (nums[cur], nums[lastNonZeroFoundAt]) = (nums[lastNonZeroFoundAt++], nums[cur]);#1#
+    }
+}*/
+
+//second attempt minimum operations [O(n), O(1)]
+public class Solution
+{
+    public void MoveZeroes(int[] nums)
+    {
+        var zeroesCount = 0;
+        for (var i = 0; i < nums.Length; i++)
+            if (nums[i] != 0 && zeroesCount > 0)
+            {
+                nums[i - zeroesCount] = nums[i];
+                nums[i] = 0;
+            }
+            else if (nums[i] == 0)
+            {
+                zeroesCount++;
+            }
     }
 }
 
