@@ -216,6 +216,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_744. Find Smallest Letter 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_34. Find First and Last Position of Element in Sorted Array", "problems\_34. Find First and Last Position of Element in Sorted Array\_34. Find First and Last Position of Element in Sorted Array.csproj", "{C471F97D-CC63-41F4-B8F4-5CBDB5A1E876}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_977. Squares of a Sorted Array", "problems\_977. Squares of a Sorted Array\_977. Squares of a Sorted Array.csproj", "{8246476E-C88A-446F-AD78-CFBBEDB9E6CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -650,5 +652,9 @@ Global
 		{C471F97D-CC63-41F4-B8F4-5CBDB5A1E876}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C471F97D-CC63-41F4-B8F4-5CBDB5A1E876}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C471F97D-CC63-41F4-B8F4-5CBDB5A1E876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8246476E-C88A-446F-AD78-CFBBEDB9E6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8246476E-C88A-446F-AD78-CFBBEDB9E6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8246476E-C88A-446F-AD78-CFBBEDB9E6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8246476E-C88A-446F-AD78-CFBBEDB9E6CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
