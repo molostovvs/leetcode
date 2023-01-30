@@ -226,6 +226,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1539. Kth Missing Positive
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_344. Reverse String", "problems\_344. Reverse String\_344. Reverse String.csproj", "{0EB663AD-889B-441A-8245-0BE7A5F347E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_557. Reverse Words in a String III", "problems\_557. Reverse Words in a String III\_557. Reverse Words in a String III.csproj", "{497D6740-8692-4FAB-BB11-C2232A66ED60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -680,5 +682,9 @@ Global
 		{0EB663AD-889B-441A-8245-0BE7A5F347E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EB663AD-889B-441A-8245-0BE7A5F347E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EB663AD-889B-441A-8245-0BE7A5F347E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{497D6740-8692-4FAB-BB11-C2232A66ED60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497D6740-8692-4FAB-BB11-C2232A66ED60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497D6740-8692-4FAB-BB11-C2232A66ED60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497D6740-8692-4FAB-BB11-C2232A66ED60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
