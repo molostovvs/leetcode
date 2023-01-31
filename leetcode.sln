@@ -230,6 +230,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_557. Reverse Words in a St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_19. Remove Nth Node From End of List", "problems\_19. Remove Nth Node From End of List\_19. Remove Nth Node From End of List.csproj", "{8348ED08-86F0-4FA5-B7CC-7DEAD7CF84BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1608. Special Array With X Elements Greater Than or Equal X", "problems\_1608. Special Array With X Elements Greater Than or Equal X\_1608. Special Array With X Elements Greater Than or Equal X.csproj", "{DA098DBA-2401-4F60-AE96-0CAD2AD4596D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -692,5 +694,9 @@ Global
 		{8348ED08-86F0-4FA5-B7CC-7DEAD7CF84BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8348ED08-86F0-4FA5-B7CC-7DEAD7CF84BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8348ED08-86F0-4FA5-B7CC-7DEAD7CF84BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA098DBA-2401-4F60-AE96-0CAD2AD4596D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA098DBA-2401-4F60-AE96-0CAD2AD4596D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA098DBA-2401-4F60-AE96-0CAD2AD4596D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA098DBA-2401-4F60-AE96-0CAD2AD4596D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
