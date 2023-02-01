@@ -236,6 +236,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3. Longest Substring Witho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_567. Permutation in String", "problems\_567. Permutation in String\_567. Permutation in String.csproj", "{37D6A95C-4DBF-4A43-BEF7-2421EABE961A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1351. Count Negative Numbers in a Sorted Matrix", "problems\_1351. Count Negative Numbers in a Sorted Matrix\_1351. Count Negative Numbers in a Sorted Matrix.csproj", "{FBAE267B-4C34-4104-832A-02C0A295E453}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -710,5 +712,9 @@ Global
 		{37D6A95C-4DBF-4A43-BEF7-2421EABE961A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37D6A95C-4DBF-4A43-BEF7-2421EABE961A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37D6A95C-4DBF-4A43-BEF7-2421EABE961A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBAE267B-4C34-4104-832A-02C0A295E453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBAE267B-4C34-4104-832A-02C0A295E453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBAE267B-4C34-4104-832A-02C0A295E453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBAE267B-4C34-4104-832A-02C0A295E453}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -125,3 +125,4 @@ __1539. Kth Missing Positive Number - 40 min (googled) [O(n), O(n+k)] / 20 min (
 1608. Special Array With X Elements Greater Than or Equal X - 35 min [O(n log n), O(sorting)]
 3. Longest Substring Without Repeating Characters - 23 min [O(n), O(n)]
 _567. Permutation in String - 40 min (with hints) [O(n), O(alphabet)]
+_1351. Count Negative Numbers in a Sorted Matrix - 10 min [O(n*m), O(1)] / 20 min [O(n + m), O(1)]
