@@ -232,6 +232,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_19. Remove Nth Node From E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1608. Special Array With X Elements Greater Than or Equal X", "problems\_1608. Special Array With X Elements Greater Than or Equal X\_1608. Special Array With X Elements Greater Than or Equal X.csproj", "{DA098DBA-2401-4F60-AE96-0CAD2AD4596D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3. Longest Substring Without Repeating Characters", "problems\_3. Longest Substring Without Repeating Characters\_3. Longest Substring Without Repeating Characters.csproj", "{BDC054C9-FD20-4593-830E-15DA54F98AFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -698,5 +700,9 @@ Global
 		{DA098DBA-2401-4F60-AE96-0CAD2AD4596D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA098DBA-2401-4F60-AE96-0CAD2AD4596D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA098DBA-2401-4F60-AE96-0CAD2AD4596D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC054C9-FD20-4593-830E-15DA54F98AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC054C9-FD20-4593-830E-15DA54F98AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC054C9-FD20-4593-830E-15DA54F98AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC054C9-FD20-4593-830E-15DA54F98AFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
