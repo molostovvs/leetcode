@@ -8,7 +8,8 @@ public class Program
     public static void Main() {}
 }
 
-public class Solution
+//first attempt
+public class OldSolution
 {
     public bool SearchMatrix(int[][] matrix, int target)
     {
@@ -29,6 +30,49 @@ public class Solution
                 return matrix[mid].Contains(target); //again simple binary search in array
             else
                 return false;
+        }
+
+        return false;
+    }
+}
+
+//second attempt 6 min [O(log(m*n), O(1))]
+public class Solution
+{
+    public bool SearchMatrix(int[][] matrix, int target)
+    {
+        var left = 0;
+        var right = matrix.GetLength(0) - 1;
+        var n = matrix[0].GetLength(0);
+
+        while (left <= right)
+        {
+            var mid = left + (right - left) / 2;
+
+            if (matrix[mid][0] <= target && matrix[mid][n - 1] >= target)
+            {
+                var inLeft = 0;
+                var inRight = n - 1;
+
+                while (inLeft <= inRight)
+                {
+                    var inMid = inLeft + (inRight - inLeft) / 2;
+                    if (matrix[mid][inMid] == target)
+                        return true;
+
+                    if (matrix[mid][inMid] > target)
+                        inRight = inMid - 1;
+                    else
+                        inLeft = inMid + 1;
+                }
+
+                return false;
+            }
+
+            if (matrix[mid][0] > target)
+                right = mid - 1;
+            else if (matrix[mid][n - 1] < target)
+                left = mid + 1;
         }
 
         return false;
