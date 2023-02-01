@@ -238,6 +238,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_567. Permutation in String
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1351. Count Negative Numbers in a Sorted Matrix", "problems\_1351. Count Negative Numbers in a Sorted Matrix\_1351. Count Negative Numbers in a Sorted Matrix.csproj", "{FBAE267B-4C34-4104-832A-02C0A295E453}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1071. Greatest Common Divisor of Strings", "problems\_1071. Greatest Common Divisor of Strings\_1071. Greatest Common Divisor of Strings.csproj", "{391B005C-3EE8-497A-A37B-BB889D38D56B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -716,5 +718,9 @@ Global
 		{FBAE267B-4C34-4104-832A-02C0A295E453}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBAE267B-4C34-4104-832A-02C0A295E453}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBAE267B-4C34-4104-832A-02C0A295E453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{391B005C-3EE8-497A-A37B-BB889D38D56B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{391B005C-3EE8-497A-A37B-BB889D38D56B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{391B005C-3EE8-497A-A37B-BB889D38D56B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{391B005C-3EE8-497A-A37B-BB889D38D56B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
