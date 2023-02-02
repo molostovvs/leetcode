@@ -240,6 +240,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1351. Count Negative Numbe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1071. Greatest Common Divisor of Strings", "problems\_1071. Greatest Common Divisor of Strings\_1071. Greatest Common Divisor of Strings.csproj", "{391B005C-3EE8-497A-A37B-BB889D38D56B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_695. Max Area of Island", "problems\_695. Max Area of Island\_695. Max Area of Island.csproj", "{2403486F-CDF2-46F1-8FE2-CA5C96394BAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -722,5 +724,9 @@ Global
 		{391B005C-3EE8-497A-A37B-BB889D38D56B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{391B005C-3EE8-497A-A37B-BB889D38D56B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{391B005C-3EE8-497A-A37B-BB889D38D56B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2403486F-CDF2-46F1-8FE2-CA5C96394BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2403486F-CDF2-46F1-8FE2-CA5C96394BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2403486F-CDF2-46F1-8FE2-CA5C96394BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2403486F-CDF2-46F1-8FE2-CA5C96394BAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

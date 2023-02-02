@@ -127,4 +127,4 @@ __1539. Kth Missing Positive Number - 40 min (googled) [O(n), O(n+k)] / 20 min (
 _567. Permutation in String - 40 min (with hints) [O(n), O(alphabet)]
 _1351. Count Negative Numbers in a Sorted Matrix - 10 min [O(n*m), O(1)] / 20 min [O(n + m), O(1)]
 __1071. Greatest Common Divisor of Strings - 20 min [O(n), O(n)] / 40 min (math solution) [O(n), O(1)]
-
+695. Max Area of Island - 35 min [O(n), O(n)]
