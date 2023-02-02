@@ -242,6 +242,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1071. Greatest Common Divi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_695. Max Area of Island", "problems\_695. Max Area of Island\_695. Max Area of Island.csproj", "{2403486F-CDF2-46F1-8FE2-CA5C96394BAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1337. The K Weakest Rows in a Matrix", "problems\_1337. The K Weakest Rows in a Matrix\_1337. The K Weakest Rows in a Matrix.csproj", "{2FDA8611-0EE5-4BD7-8EE0-8F7A2AEF4280}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -728,5 +730,9 @@ Global
 		{2403486F-CDF2-46F1-8FE2-CA5C96394BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2403486F-CDF2-46F1-8FE2-CA5C96394BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2403486F-CDF2-46F1-8FE2-CA5C96394BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FDA8611-0EE5-4BD7-8EE0-8F7A2AEF4280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FDA8611-0EE5-4BD7-8EE0-8F7A2AEF4280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FDA8611-0EE5-4BD7-8EE0-8F7A2AEF4280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FDA8611-0EE5-4BD7-8EE0-8F7A2AEF4280}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
