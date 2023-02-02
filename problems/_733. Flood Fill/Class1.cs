@@ -1,6 +1,14 @@
-﻿namespace _733._Flood_Fill;
+﻿using FluentAssertions;
+using NUnit.Framework;
 
-public class Solution
+namespace _733._Flood_Fill;
+
+public class Program
+{
+    public static void Main() {}
+}
+
+public class OldSolution
 {
     public int[][] FloodFill(int[][] image, int sr, int sc, int color)
     {
@@ -44,4 +52,66 @@ public class Solution
 
     private static bool IsCurrentPixelAlreadyDesiredColor(int[][] image, int color, (int, int) cur)
         => image[cur.Item1][cur.Item2] == color;
+}
+
+//second attempt [O(n), O(n)]
+public class Solution
+{
+    public int[][] FloodFill(int[][] image, int sr, int sc, int color)
+    {
+        if (image[sr][sc] == color)
+            return image;
+
+        var q = new Queue<(int R, int C)>();
+        var visited = new HashSet<(int R, int C)>();
+        q.Enqueue((sr, sc));
+
+        while (q.Count > 0)
+        {
+            var cur = q.Dequeue();
+            if (visited.Contains(cur))
+                continue;
+            visited.Add(cur);
+
+            foreach (var neighbor in GetNeighbors(cur, image, color))
+                if (!visited.Contains(neighbor))
+                    q.Enqueue(neighbor);
+            image[cur.R][cur.C] = color;
+        }
+
+        return image;
+    }
+
+    private IEnumerable<(int R, int C)> GetNeighbors((int R, int C) cur, int[][] image, int color)
+    {
+        var d = new[] { -1, 0, 1 };
+        return d.SelectMany(r => d.Select(c => (cur.R - r, cur.C - c)))
+                .Where(t => cur.R == t.Item1 || cur.C == t.Item2)
+                .Where(t => t.Item1 >= 0 && t.Item1 < image.GetLength(0))
+                .Where(t => t.Item2 >= 0 && t.Item2 < image[0].GetLength(0))
+                .Where(t => image[t.Item1][t.Item2] == image[cur.R][cur.C]);
+    }
+}
+
+//NEXT ATTEMPT SHOULD BE RECURSIVE
+
+[TestFixture]
+public class Tests
+{
+    private static Solution s = new();
+
+    [Test]
+    public static void Example()
+    {
+        var image = new int[3][];
+        image[0] = new[] { 1, 1, 1 };
+        image[1] = new[] { 1, 1, 0 };
+        image[2] = new[] { 1, 0, 1 };
+        var result = s.FloodFill(image, 1, 1, 2);
+        var expected = new int[3][];
+        expected[0] = new[] { 2, 2, 2 };
+        expected[1] = new[] { 2, 2, 0 };
+        expected[2] = new[] { 2, 0, 1 };
+        result.Should().BeEquivalentTo(expected, opt => opt.WithStrictOrdering());
+    }
 }
