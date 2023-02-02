@@ -1,14 +1,13 @@
 ﻿using FluentAssertions;
 using NUnit.Framework;
 
-namespace _953._Verifying_an_Alien_Dictionary;
-
 public class Program
 {
     public static void Main() {}
 }
 
-public class Solution
+//first attempt
+public class OldSolution
 {
     public bool IsAlienSorted(string[] words, string order)
     {
@@ -42,6 +41,35 @@ public class Solution
     }
 }
 
+//second attempt 10 min [O(n), O(alphabet)]
+public class Solution
+{
+    public bool IsAlienSorted(string[] words, string order)
+    {
+        var alphabet = new Dictionary<char, int>();
+        for (var i = 0; i < order.Length; i++)
+            alphabet.Add(order[i], i + 1);
+
+        for (var i = 1; i < words.Length; i++)
+            if (!PreviousWordIsSmaller(words[i - 1], words[i], alphabet))
+                return false;
+
+        return true;
+    }
+
+    private bool PreviousWordIsSmaller(string prev, string cur, Dictionary<char, int> alphabet)
+    {
+        var minLength = Math.Min(prev.Length, cur.Length);
+        for (var i = 0; i < minLength; i++)
+            if (alphabet[prev[i]] < alphabet[cur[i]])
+                return true;
+            else if (alphabet[prev[i]] > alphabet[cur[i]])
+                return false;
+
+        return prev.Length <= cur.Length;
+    }
+}
+
 [TestFixture]
 public class Tests
 {
@@ -51,6 +79,7 @@ public class Tests
     [TestCase(new[] { "word", "world", "row" }, "worldabcefghijkmnpqstuvxyz", false)]
     [TestCase(new[] { "apple", "app" }, "abcdefghijklmnopqrstuvwxyz", false)]
     [TestCase(new[] { "hello", "hello" }, "abcdefghijklmnopqrstuvwxyz", true)]
+    [TestCase(new[] { "kuvp", "q" }, "ngxlkthsjuoqcpavbfdermiywz", true)]
     public static void Example(string[] words, string alphabet, bool expected)
     {
         var result = s.IsAlienSorted(words, alphabet);
