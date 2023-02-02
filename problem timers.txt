@@ -129,3 +129,4 @@ _1351. Count Negative Numbers in a Sorted Matrix - 10 min [O(n*m), O(1)] / 20 mi
 __1071. Greatest Common Divisor of Strings - 20 min [O(n), O(n)] / 40 min (math solution) [O(n), O(1)]
 695. Max Area of Island - 35 min [O(n), O(n)]
 1337. The K Weakest Rows in a Matrix - 10 min [O(n), O(n)] / 60 min [O(n*log m + n*log k), O(k)]
+_1346. Check If N and Its Double Exist - 2 min [O(n^2), O(1)] / 20 min [O(n), O(n)]

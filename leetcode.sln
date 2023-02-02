@@ -244,6 +244,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_695. Max Area of Island", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1337. The K Weakest Rows in a Matrix", "problems\_1337. The K Weakest Rows in a Matrix\_1337. The K Weakest Rows in a Matrix.csproj", "{2FDA8611-0EE5-4BD7-8EE0-8F7A2AEF4280}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1346. Check If N and Its Double Exist", "problems\_1346. Check If N and Its Double Exist\_1346. Check If N and Its Double Exist.csproj", "{501B9E0D-BD5E-4AD7-B56E-C052A22E2388}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -734,5 +736,9 @@ Global
 		{2FDA8611-0EE5-4BD7-8EE0-8F7A2AEF4280}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FDA8611-0EE5-4BD7-8EE0-8F7A2AEF4280}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FDA8611-0EE5-4BD7-8EE0-8F7A2AEF4280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{501B9E0D-BD5E-4AD7-B56E-C052A22E2388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{501B9E0D-BD5E-4AD7-B56E-C052A22E2388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{501B9E0D-BD5E-4AD7-B56E-C052A22E2388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{501B9E0D-BD5E-4AD7-B56E-C052A22E2388}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
