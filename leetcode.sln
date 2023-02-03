@@ -246,6 +246,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1337. The K Weakest Rows i
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1346. Check If N and Its Double Exist", "problems\_1346. Check If N and Its Double Exist\_1346. Check If N and Its Double Exist.csproj", "{501B9E0D-BD5E-4AD7-B56E-C052A22E2388}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_6. Zigzag Conversion", "problems\_6. Zigzag Conversion\_6. Zigzag Conversion.csproj", "{F6B6A6AE-A419-4A9F-BA7E-2BDC2194387F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -740,5 +742,9 @@ Global
 		{501B9E0D-BD5E-4AD7-B56E-C052A22E2388}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{501B9E0D-BD5E-4AD7-B56E-C052A22E2388}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{501B9E0D-BD5E-4AD7-B56E-C052A22E2388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B6A6AE-A419-4A9F-BA7E-2BDC2194387F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B6A6AE-A419-4A9F-BA7E-2BDC2194387F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B6A6AE-A419-4A9F-BA7E-2BDC2194387F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B6A6AE-A419-4A9F-BA7E-2BDC2194387F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
