@@ -252,6 +252,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_633. Sum of Square Numbers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_617. Merge Two Binary Trees", "problems\_617. Merge Two Binary Trees\_617. Merge Two Binary Trees.csproj", "{D6CED85E-EE4B-49A3-9882-DFB549DC5A75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_116. Populating Next Right Pointers in Each Node", "problems\_116. Populating Next Right Pointers in Each Node\_116. Populating Next Right Pointers in Each Node.csproj", "{F1A62274-7E33-429E-9F57-40207D64F5F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -758,5 +760,9 @@ Global
 		{D6CED85E-EE4B-49A3-9882-DFB549DC5A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6CED85E-EE4B-49A3-9882-DFB549DC5A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6CED85E-EE4B-49A3-9882-DFB549DC5A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1A62274-7E33-429E-9F57-40207D64F5F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1A62274-7E33-429E-9F57-40207D64F5F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1A62274-7E33-429E-9F57-40207D64F5F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1A62274-7E33-429E-9F57-40207D64F5F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
