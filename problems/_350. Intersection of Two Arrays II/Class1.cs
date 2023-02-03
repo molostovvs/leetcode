@@ -1,6 +1,13 @@
-﻿namespace _350._Intersection_of_Two_Arrays_II;
+﻿using FluentAssertions;
+using NUnit.Framework;
 
-public class Solution
+public class Program
+{
+    public static void Main() {}
+}
+
+//first attempt 
+public class OldSolution
 {
     public int[] Intersect(int[] nums1, int[] nums2)
     {
@@ -60,5 +67,49 @@ public class Solution
             }
 
         return result.ToArray();*/
+    }
+}
+
+//second attempt 8 min [O(nlogn + mlogm), O(sorting)]
+public class Solution
+{
+    public int[] Intersect(int[] nums1, int[] nums2)
+    {
+        var res = new List<int>();
+
+        Array.Sort(nums1);
+        Array.Sort(nums2);
+
+        for (int l = 0, r = 0; l < nums1.Length && r < nums2.Length;)
+            if (nums1[l] == nums2[r])
+            {
+                res.Add(nums1[l]);
+                l++;
+                r++;
+            }
+            else if (nums1[l] < nums2[r])
+            {
+                l++;
+            }
+            else if (nums1[l] > nums2[r])
+            {
+                r++;
+            }
+
+        return res.ToArray();
+    }
+}
+
+[TestFixture]
+public class Tests
+{
+    private static Solution s = new();
+
+    [TestCase(new[] { 1, 2, 2, 1 }, new[] { 2, 2 }, new[] { 2, 2 })]
+    [TestCase(new[] { 4, 9, 5 }, new[] { 9, 4, 9, 8, 4 }, new[] { 9, 4 })]
+    public static void Example(int[] n1, int[] n2, int[] expected)
+    {
+        var result = s.Intersect(n1, n2);
+        result.Should().BeEquivalentTo(expected);
     }
 }
