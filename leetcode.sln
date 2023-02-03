@@ -250,6 +250,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_6. Zigzag Conversion", "pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_633. Sum of Square Numbers", "problems\_633. Sum of Square Numbers\_633. Sum of Square Numbers.csproj", "{C35828DF-9122-483A-B06D-7168AA3931B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_617. Merge Two Binary Trees", "problems\_617. Merge Two Binary Trees\_617. Merge Two Binary Trees.csproj", "{D6CED85E-EE4B-49A3-9882-DFB549DC5A75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -752,5 +754,9 @@ Global
 		{C35828DF-9122-483A-B06D-7168AA3931B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C35828DF-9122-483A-B06D-7168AA3931B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C35828DF-9122-483A-B06D-7168AA3931B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6CED85E-EE4B-49A3-9882-DFB549DC5A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6CED85E-EE4B-49A3-9882-DFB549DC5A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6CED85E-EE4B-49A3-9882-DFB549DC5A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6CED85E-EE4B-49A3-9882-DFB549DC5A75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
