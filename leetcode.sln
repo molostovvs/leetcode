@@ -260,6 +260,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_33. Search in Rotated Sort
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_542. 01 Matrix", "problems\_542. 01 Matrix\_542. 01 Matrix.csproj", "{B012274C-5157-42C4-A2F8-9B0BD86ADF54}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_994. Rotting Oranges", "problems\_994. Rotting Oranges\_994. Rotting Oranges.csproj", "{A2BA47A4-D961-48B9-A559-E6596C7C751A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -782,5 +784,9 @@ Global
 		{B012274C-5157-42C4-A2F8-9B0BD86ADF54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B012274C-5157-42C4-A2F8-9B0BD86ADF54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B012274C-5157-42C4-A2F8-9B0BD86ADF54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2BA47A4-D961-48B9-A559-E6596C7C751A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2BA47A4-D961-48B9-A559-E6596C7C751A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2BA47A4-D961-48B9-A559-E6596C7C751A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2BA47A4-D961-48B9-A559-E6596C7C751A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
