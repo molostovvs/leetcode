@@ -254,6 +254,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_617. Merge Two Binary Tree
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_116. Populating Next Right Pointers in Each Node", "problems\_116. Populating Next Right Pointers in Each Node\_116. Populating Next Right Pointers in Each Node.csproj", "{F1A62274-7E33-429E-9F57-40207D64F5F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1855. Maximum Distance Between a Pair of Values", "problems\_1855. Maximum Distance Between a Pair of Values\_1855. Maximum Distance Between a Pair of Values.csproj", "{0CC1B36D-539C-4653-BCA9-A513EAC2EFEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -764,5 +766,9 @@ Global
 		{F1A62274-7E33-429E-9F57-40207D64F5F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1A62274-7E33-429E-9F57-40207D64F5F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1A62274-7E33-429E-9F57-40207D64F5F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CC1B36D-539C-4653-BCA9-A513EAC2EFEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC1B36D-539C-4653-BCA9-A513EAC2EFEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC1B36D-539C-4653-BCA9-A513EAC2EFEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC1B36D-539C-4653-BCA9-A513EAC2EFEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
