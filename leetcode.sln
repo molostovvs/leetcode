@@ -256,6 +256,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_116. Populating Next Right
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1855. Maximum Distance Between a Pair of Values", "problems\_1855. Maximum Distance Between a Pair of Values\_1855. Maximum Distance Between a Pair of Values.csproj", "{0CC1B36D-539C-4653-BCA9-A513EAC2EFEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_33. Search in Rotated Sorted Array", "problems\_33. Search in Rotated Sorted Array\_33. Search in Rotated Sorted Array.csproj", "{D8BD9CF8-128B-476B-8014-819D45B0B262}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -770,5 +772,9 @@ Global
 		{0CC1B36D-539C-4653-BCA9-A513EAC2EFEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CC1B36D-539C-4653-BCA9-A513EAC2EFEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CC1B36D-539C-4653-BCA9-A513EAC2EFEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8BD9CF8-128B-476B-8014-819D45B0B262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8BD9CF8-128B-476B-8014-819D45B0B262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8BD9CF8-128B-476B-8014-819D45B0B262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8BD9CF8-128B-476B-8014-819D45B0B262}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
