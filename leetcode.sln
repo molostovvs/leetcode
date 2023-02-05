@@ -266,6 +266,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_153. Find Minimum in Rotat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_27. Remove Element", "problems\_27. Remove Element\_27. Remove Element.csproj", "{9FD8C4D7-CCD6-465D-8EBA-4EE43F41482D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1137. N-th Tribonacci Number", "problems\_1137. N-th Tribonacci Number\_1137. N-th Tribonacci Number.csproj", "{87711230-7C46-457F-8AAB-49DCEDFCFE92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -800,5 +802,9 @@ Global
 		{9FD8C4D7-CCD6-465D-8EBA-4EE43F41482D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FD8C4D7-CCD6-465D-8EBA-4EE43F41482D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FD8C4D7-CCD6-465D-8EBA-4EE43F41482D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87711230-7C46-457F-8AAB-49DCEDFCFE92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87711230-7C46-457F-8AAB-49DCEDFCFE92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87711230-7C46-457F-8AAB-49DCEDFCFE92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87711230-7C46-457F-8AAB-49DCEDFCFE92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
