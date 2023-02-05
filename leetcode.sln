@@ -264,6 +264,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_994. Rotting Oranges", "pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_153. Find Minimum in Rotated Sorted Array", "problems\_153. Find Minimum in Rotated Sorted Array\_153. Find Minimum in Rotated Sorted Array.csproj", "{11341E47-10EB-4DAA-B3C0-6583917BAB9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_27. Remove Element", "problems\_27. Remove Element\_27. Remove Element.csproj", "{9FD8C4D7-CCD6-465D-8EBA-4EE43F41482D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -794,5 +796,9 @@ Global
 		{11341E47-10EB-4DAA-B3C0-6583917BAB9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11341E47-10EB-4DAA-B3C0-6583917BAB9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11341E47-10EB-4DAA-B3C0-6583917BAB9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FD8C4D7-CCD6-465D-8EBA-4EE43F41482D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD8C4D7-CCD6-465D-8EBA-4EE43F41482D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD8C4D7-CCD6-465D-8EBA-4EE43F41482D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD8C4D7-CCD6-465D-8EBA-4EE43F41482D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
