@@ -2,8 +2,7 @@
 
 public class Program
 {
-    static void Main(string[] args)
-        => Solution.Test();
+    static void Main(string[] args) {}
 }
 
 public class ListNode
