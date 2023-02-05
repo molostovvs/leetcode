@@ -6,7 +6,8 @@ public class Program
     public static void Main() {}
 }
 
-public class Solution
+//first attempt 85 min [O(s+p), O(s+p)]
+public class OldSolution
 {
     public IList<int> FindAnagrams(string input, string p)
     {
@@ -63,6 +64,50 @@ public class Solution
 
         return true;
     }
+}
+
+//second attempt 8 min [O(s+p), O(s+p)]
+public class Solution
+{
+    public IList<int> FindAnagrams(string s, string p)
+    {
+        var res = new List<int>();
+
+        var d2 = new Dictionary<char, int>();
+        foreach (var ch in p)
+            if (!d2.TryAdd(ch, 1))
+                d2[ch]++;
+
+        var cur = new Dictionary<char, int>();
+        for (var i = 0; i < s.Length; i++)
+        {
+            if (i < p.Length)
+            {
+                if (!cur.TryAdd(s[i], 1))
+                    cur[s[i]]++;
+                continue;
+            }
+
+            if (DictionariesAreSimilar(d2, cur))
+                res.Add(i - p.Length);
+
+            if (cur[s[i - p.Length]] == 1)
+                cur.Remove(s[i - p.Length]);
+            else
+                cur[s[i - p.Length]]--;
+
+            if (!cur.TryAdd(s[i], 1))
+                cur[s[i]]++;
+        }
+
+        if (DictionariesAreSimilar(cur, d2))
+            res.Add(s.Length - p.Length);
+
+        return res;
+    }
+
+    public bool DictionariesAreSimilar(Dictionary<char, int> d1, Dictionary<char, int> d2)
+        => d1.All(kv => d2.ContainsKey(kv.Key) && d2[kv.Key] == kv.Value);
 }
 
 [TestFixture]
