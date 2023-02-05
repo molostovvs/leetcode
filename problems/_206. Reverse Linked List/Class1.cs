@@ -1,8 +1,6 @@
 ﻿using FluentAssertions;
 using NUnit.Framework;
 
-namespace _206._Reverse_Linked_List;
-
 public class Program
 {
     static void Main(string[] args) {}
@@ -20,7 +18,7 @@ public class ListNode
     }
 }
 
-/*public class Solution
+public class OldSolution
 {
     public ListNode ReverseList(ListNode head, ListNode reversed = null)
     {
@@ -37,10 +35,10 @@ public class ListNode
 
         return ReverseList(newHead, head);
     }
-}*/
+}
 
 // 2nd attempt [O(n), O(1)]
-public class Solution
+public class SecondSolution
 {
     public ListNode ReverseList(ListNode head)
     {
@@ -53,6 +51,26 @@ public class Solution
             prev = head;
             head = next;
             next = head?.next;
+        }
+
+        return prev;
+    }
+}
+
+//3rd attempt 5 min [O(n), O(1)]
+public class Solution
+{
+    public ListNode ReverseList(ListNode head)
+    {
+        ListNode prev = null;
+        var cur = head;
+
+        while (cur != null)
+        {
+            var next = cur.next;
+            cur.next = prev;
+            prev = cur;
+            cur = next;
         }
 
         return prev;
