@@ -272,6 +272,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1470. Shuffle the Array", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_77. Combinations", "problems\_77. Combinations\_77. Combinations.csproj", "{F5F7664A-F670-45CE-BDDF-848D5E4BD037}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_46. Permutations", "problems\_46. Permutations\_46. Permutations.csproj", "{B0989911-9E8B-4E99-BD11-A3CCC71F1A51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -818,5 +820,9 @@ Global
 		{F5F7664A-F670-45CE-BDDF-848D5E4BD037}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5F7664A-F670-45CE-BDDF-848D5E4BD037}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5F7664A-F670-45CE-BDDF-848D5E4BD037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0989911-9E8B-4E99-BD11-A3CCC71F1A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0989911-9E8B-4E99-BD11-A3CCC71F1A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0989911-9E8B-4E99-BD11-A3CCC71F1A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0989911-9E8B-4E99-BD11-A3CCC71F1A51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
