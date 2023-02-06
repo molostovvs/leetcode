@@ -16,8 +16,7 @@ public class Solution
 }*/
 
 // [O(n), O(1)]
-
-public class Solution
+public class OldSolution
 {
     public int MinCostClimbingStairs(int[] cost)
     {
@@ -33,5 +32,27 @@ public class Solution
         }
 
         return Math.Min(pre, prepre);
+    }
+}
+
+//second attempt 24 min [O(n), O(1)]
+public class Solution
+{
+    public int MinCostClimbingStairs(int[] arr)
+    {
+        var t1 = arr[0];
+        var t2 = arr[1];
+        if (arr.Length < 3)
+            return Math.Min(t1, t2);
+
+        var cost = 0;
+        for (var i = 2; i < arr.Length; i++)
+        {
+            cost = Math.Min(t1 + arr[i], t2 + arr[i]);
+            t1 = t2;
+            t2 = cost;
+        }
+
+        return Math.Min(cost, t1);
     }
 }
