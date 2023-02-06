@@ -274,6 +274,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_77. Combinations", "proble
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_46. Permutations", "problems\_46. Permutations\_46. Permutations.csproj", "{B0989911-9E8B-4E99-BD11-A3CCC71F1A51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_784. Letter Case Permutation", "problems\_784. Letter Case Permutation\_784. Letter Case Permutation.csproj", "{FF498166-4D5B-409A-B58E-88915EEA26BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -824,5 +826,9 @@ Global
 		{B0989911-9E8B-4E99-BD11-A3CCC71F1A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0989911-9E8B-4E99-BD11-A3CCC71F1A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0989911-9E8B-4E99-BD11-A3CCC71F1A51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF498166-4D5B-409A-B58E-88915EEA26BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF498166-4D5B-409A-B58E-88915EEA26BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF498166-4D5B-409A-B58E-88915EEA26BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF498166-4D5B-409A-B58E-88915EEA26BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
