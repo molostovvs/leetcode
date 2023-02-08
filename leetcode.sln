@@ -280,6 +280,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_136. Single Number", "prob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_904. Fruit Into Baskets", "problems\_904. Fruit Into Baskets\_904. Fruit Into Baskets.csproj", "{1759CAC3-6E2A-4F11-ABFD-3334C5BD2383}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_45. Jump Game II", "problems\_45. Jump Game II\_45. Jump Game II.csproj", "{7023A1D1-9607-45C0-AB32-1147A9E65E47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -842,5 +844,9 @@ Global
 		{1759CAC3-6E2A-4F11-ABFD-3334C5BD2383}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1759CAC3-6E2A-4F11-ABFD-3334C5BD2383}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1759CAC3-6E2A-4F11-ABFD-3334C5BD2383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7023A1D1-9607-45C0-AB32-1147A9E65E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7023A1D1-9607-45C0-AB32-1147A9E65E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7023A1D1-9607-45C0-AB32-1147A9E65E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7023A1D1-9607-45C0-AB32-1147A9E65E47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
