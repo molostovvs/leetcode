@@ -37,7 +37,7 @@ public class OldSolution
 }
 
 //second attempt 13 min ugly code [O(n), O(1)]
-public class Solution
+public class SecondSolution
 {
     public int ClimbStairs(int n)
     {
@@ -59,5 +59,29 @@ public class Solution
         }
 
         return v3;
+    }
+}
+
+//third attempt 2 min [O(n), O(1)]
+public class Solution
+{
+    public int ClimbStairs(int n)
+    {
+        var prepre = 1;
+        var pre = 2;
+
+        if (n < 3)
+            return n;
+
+        while (n - 2 > 0)
+        {
+            var cur = prepre + pre;
+            prepre = pre;
+            pre = cur;
+
+            n--;
+        }
+
+        return pre;
     }
 }
