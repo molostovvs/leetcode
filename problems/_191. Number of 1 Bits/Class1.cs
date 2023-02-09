@@ -1,15 +1,12 @@
-﻿using System.Numerics;
-using FluentAssertions;
+﻿using FluentAssertions;
 using NUnit.Framework;
-
-namespace _191._Number_of_1_Bits;
 
 public class Program
 {
     static void Main(string[] args) {}
 }
 
-public class Solution
+public class OldSolution
 {
     public int HammingWeight(uint n)
     {
@@ -55,6 +52,23 @@ public class Solution
         }
 
         return (int)count;
+    }
+}
+
+//2 min [O(n), O(1)]
+public class Solution
+{
+    public int HammingWeight(uint n)
+    {
+        var count = 0;
+
+        while (n > 0)
+        {
+            n &= n - 1;
+            count++;
+        }
+
+        return count;
     }
 }
 
