@@ -284,6 +284,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_45. Jump Game II", "proble
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2306. Naming a Company", "problems\_2306. Naming a Company\_2306. Naming a Company.csproj", "{43D70831-26F8-4FDA-9661-775D28BD2D46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_198. House Robber", "problems\_198. House Robber\_198. House Robber.csproj", "{350C41C3-3D84-4AE5-A457-5C968FB33586}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -854,5 +856,9 @@ Global
 		{43D70831-26F8-4FDA-9661-775D28BD2D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43D70831-26F8-4FDA-9661-775D28BD2D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43D70831-26F8-4FDA-9661-775D28BD2D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{350C41C3-3D84-4AE5-A457-5C968FB33586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{350C41C3-3D84-4AE5-A457-5C968FB33586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{350C41C3-3D84-4AE5-A457-5C968FB33586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{350C41C3-3D84-4AE5-A457-5C968FB33586}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
