@@ -286,6 +286,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2306. Naming a Company", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_198. House Robber", "problems\_198. House Robber\_198. House Robber.csproj", "{350C41C3-3D84-4AE5-A457-5C968FB33586}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_120. Triangle", "problems\_120. Triangle\_120. Triangle.csproj", "{56BE41A0-BD44-4BD9-B98C-B19169917006}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -860,5 +862,9 @@ Global
 		{350C41C3-3D84-4AE5-A457-5C968FB33586}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{350C41C3-3D84-4AE5-A457-5C968FB33586}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{350C41C3-3D84-4AE5-A457-5C968FB33586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56BE41A0-BD44-4BD9-B98C-B19169917006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56BE41A0-BD44-4BD9-B98C-B19169917006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56BE41A0-BD44-4BD9-B98C-B19169917006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56BE41A0-BD44-4BD9-B98C-B19169917006}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
