@@ -298,6 +298,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_213. House Robber II", "pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_740. Delete and Earn", "problems\_740. Delete and Earn\_740. Delete and Earn.csproj", "{92802B11-43B7-477B-B1E6-41CFDB4D5653}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_55. Jump Game", "problems\_55. Jump Game\_55. Jump Game.csproj", "{674DDD69-E237-4C08-B6DD-2D1DC04EEA37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -896,5 +898,9 @@ Global
 		{92802B11-43B7-477B-B1E6-41CFDB4D5653}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92802B11-43B7-477B-B1E6-41CFDB4D5653}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92802B11-43B7-477B-B1E6-41CFDB4D5653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674DDD69-E237-4C08-B6DD-2D1DC04EEA37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674DDD69-E237-4C08-B6DD-2D1DC04EEA37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674DDD69-E237-4C08-B6DD-2D1DC04EEA37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674DDD69-E237-4C08-B6DD-2D1DC04EEA37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
