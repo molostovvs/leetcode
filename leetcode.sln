@@ -296,6 +296,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1162. As Far from Land as 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_213. House Robber II", "problems\_213. House Robber II\_213. House Robber II.csproj", "{536375BB-F608-4456-83E7-7BEC1BD0A22F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_740. Delete and Earn", "problems\_740. Delete and Earn\_740. Delete and Earn.csproj", "{92802B11-43B7-477B-B1E6-41CFDB4D5653}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -890,5 +892,9 @@ Global
 		{536375BB-F608-4456-83E7-7BEC1BD0A22F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{536375BB-F608-4456-83E7-7BEC1BD0A22F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{536375BB-F608-4456-83E7-7BEC1BD0A22F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92802B11-43B7-477B-B1E6-41CFDB4D5653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92802B11-43B7-477B-B1E6-41CFDB4D5653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92802B11-43B7-477B-B1E6-41CFDB4D5653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92802B11-43B7-477B-B1E6-41CFDB4D5653}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
