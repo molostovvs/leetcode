@@ -8,7 +8,7 @@ public class Program
     static void Main(string[] args) {}
 }
 
-public class Solution
+public class OldSolution
 {
     public int MaxSubArray(int[] nums)
     {
@@ -25,6 +25,29 @@ public class Solution
         }
 
         return Math.Max(currentSum, maxSum);
+    }
+}
+
+//second attempt 8 min [O(n), O(1)]
+public class Solution
+{
+    public int MaxSubArray(int[] nums)
+    {
+        var max = int.MinValue;
+
+        var curSum = 0;
+        foreach (var n in nums)
+        {
+            curSum += n;
+
+            if (n > curSum)
+                curSum = n;
+
+            if (curSum > max)
+                max = curSum;
+        }
+
+        return max;
     }
 }
 
