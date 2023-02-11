@@ -300,6 +300,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_740. Delete and Earn", "pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_55. Jump Game", "problems\_55. Jump Game\_55. Jump Game.csproj", "{674DDD69-E237-4C08-B6DD-2D1DC04EEA37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1129. Shortest Path with Alternating Colors", "problems\_1129. Shortest Path with Alternating Colors\_1129. Shortest Path with Alternating Colors.csproj", "{AE92B951-E12F-46E5-9B53-DBD2CD4AF410}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -902,5 +904,9 @@ Global
 		{674DDD69-E237-4C08-B6DD-2D1DC04EEA37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{674DDD69-E237-4C08-B6DD-2D1DC04EEA37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{674DDD69-E237-4C08-B6DD-2D1DC04EEA37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE92B951-E12F-46E5-9B53-DBD2CD4AF410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE92B951-E12F-46E5-9B53-DBD2CD4AF410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE92B951-E12F-46E5-9B53-DBD2CD4AF410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE92B951-E12F-46E5-9B53-DBD2CD4AF410}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
