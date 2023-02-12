@@ -302,6 +302,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_55. Jump Game", "problems\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1129. Shortest Path with Alternating Colors", "problems\_1129. Shortest Path with Alternating Colors\_1129. Shortest Path with Alternating Colors.csproj", "{AE92B951-E12F-46E5-9B53-DBD2CD4AF410}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_918. Maximum Sum Circular Subarray", "problems\_918. Maximum Sum Circular Subarray\_918. Maximum Sum Circular Subarray.csproj", "{71EEAC1D-72DD-408F-AFA0-C1898B18B63C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -908,5 +910,9 @@ Global
 		{AE92B951-E12F-46E5-9B53-DBD2CD4AF410}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE92B951-E12F-46E5-9B53-DBD2CD4AF410}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE92B951-E12F-46E5-9B53-DBD2CD4AF410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71EEAC1D-72DD-408F-AFA0-C1898B18B63C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71EEAC1D-72DD-408F-AFA0-C1898B18B63C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71EEAC1D-72DD-408F-AFA0-C1898B18B63C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71EEAC1D-72DD-408F-AFA0-C1898B18B63C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
