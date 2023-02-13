@@ -306,6 +306,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_918. Maximum Sum Circular 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2477. Minimum Fuel Cost to Report to the Capital", "problems\_2477. Minimum Fuel Cost to Report to the Capital\_2477. Minimum Fuel Cost to Report to the Capital.csproj", "{3D05959B-3FD2-4986-A014-699CD32B78C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_152. Maximum Product Subarray", "problems\_152. Maximum Product Subarray\_152. Maximum Product Subarray.csproj", "{61423163-4B9A-4B2D-9AEC-2CE19B11C239}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -920,5 +922,9 @@ Global
 		{3D05959B-3FD2-4986-A014-699CD32B78C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D05959B-3FD2-4986-A014-699CD32B78C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D05959B-3FD2-4986-A014-699CD32B78C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61423163-4B9A-4B2D-9AEC-2CE19B11C239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61423163-4B9A-4B2D-9AEC-2CE19B11C239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61423163-4B9A-4B2D-9AEC-2CE19B11C239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61423163-4B9A-4B2D-9AEC-2CE19B11C239}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
