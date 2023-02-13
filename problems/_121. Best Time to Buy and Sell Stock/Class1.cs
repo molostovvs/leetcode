@@ -1,14 +1,12 @@
 ﻿using FluentAssertions;
 using NUnit.Framework;
 
-namespace _121._Best_Time_to_Buy_and_Sell_Stock;
-
 public class Program
 {
     public static void Main() {}
 }
 
-public class Solution
+public class OldSolution
 {
     public int MaxProfit(int[] prices)
     {
@@ -44,6 +42,27 @@ public class Solution
         }
 
         return maxProfit;
+    }
+}
+
+//second attempt 5 min [O(n), O(1)]
+public class Solution
+{
+    public int MaxProfit(int[] prices)
+    {
+        var buy = prices[0];
+        var res = 0;
+
+        for (var i = 1; i < prices.Length; i++)
+        {
+            var sell = prices[i];
+            res = Math.Max(res, sell - buy);
+
+            if (sell < buy)
+                buy = sell;
+        }
+
+        return res;
     }
 }
 
