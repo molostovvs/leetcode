@@ -1,14 +1,12 @@
 ﻿using FluentAssertions;
 using NUnit.Framework;
 
-namespace _1523.CountOddNumbersInAnIntervalRange;
-
 public class Program
 {
     static void Main(string[] args) {}
 }
 
-public class Solution
+public class OldSolution
 {
     // public int CountOdds(int low, int high)
     //     => Enumerable.Range(low, high - low + 1).Where(x => x % 2 != 0).Count();
@@ -21,6 +19,20 @@ public class Solution
         if (low % 2 != 0)
             return diff / 2 + 1;
         return diff / 2;
+    }
+}
+
+//second attempt 3 min [O(1), O(1)]
+public class Solution
+{
+    public int CountOdds(int low, int high)
+    {
+        var res = high - low + 1;
+
+        if (res % 2 == 0)
+            return res / 2;
+
+        return low % 2 == 0 ? res / 2 : res / 2 + 1;
     }
 }
 
