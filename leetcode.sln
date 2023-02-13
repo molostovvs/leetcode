@@ -310,6 +310,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_152. Maximum Product Subar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1567. Maximum Length of Subarray With Positive Product", "problems\_1567. Maximum Length of Subarray With Positive Product\_1567. Maximum Length of Subarray With Positive Product.csproj", "{3F77ED13-0BB5-42B6-98DD-54D250042A6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1014. Best Sightseeing Pair", "problems\_1014. Best Sightseeing Pair\_1014. Best Sightseeing Pair.csproj", "{347708B1-ECF2-4D60-9F43-CFCEEDE447CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -932,5 +934,9 @@ Global
 		{3F77ED13-0BB5-42B6-98DD-54D250042A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F77ED13-0BB5-42B6-98DD-54D250042A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F77ED13-0BB5-42B6-98DD-54D250042A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{347708B1-ECF2-4D60-9F43-CFCEEDE447CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347708B1-ECF2-4D60-9F43-CFCEEDE447CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347708B1-ECF2-4D60-9F43-CFCEEDE447CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347708B1-ECF2-4D60-9F43-CFCEEDE447CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
