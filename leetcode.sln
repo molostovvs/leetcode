@@ -314,6 +314,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1014. Best Sightseeing Pai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_122. Best Time to Buy and Sell Stock II", "problems\_122. Best Time to Buy and Sell Stock II\_122. Best Time to Buy and Sell Stock II.csproj", "{DF6EDC0D-2727-49C8-BF68-E1A6EC1C2F40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_309. Best Time to Buy and Sell Stock with Cooldown", "problems\_309. Best Time to Buy and Sell Stock with Cooldown\_309. Best Time to Buy and Sell Stock with Cooldown.csproj", "{F5A2F964-21A9-476D-9A75-1412F148B2A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -944,5 +946,9 @@ Global
 		{DF6EDC0D-2727-49C8-BF68-E1A6EC1C2F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF6EDC0D-2727-49C8-BF68-E1A6EC1C2F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF6EDC0D-2727-49C8-BF68-E1A6EC1C2F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5A2F964-21A9-476D-9A75-1412F148B2A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A2F964-21A9-476D-9A75-1412F148B2A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A2F964-21A9-476D-9A75-1412F148B2A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5A2F964-21A9-476D-9A75-1412F148B2A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
