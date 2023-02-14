@@ -324,6 +324,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_139. Word Break", "problem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_413. Arithmetic Slices", "problems\_413. Arithmetic Slices\_413. Arithmetic Slices.csproj", "{60444F91-7AA8-48A7-A8C7-F68811919266}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_91. Decode Ways", "problems\_91. Decode Ways\_91. Decode Ways.csproj", "{D305D487-DF81-4FF5-ADD2-07F02F223057}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -974,5 +976,9 @@ Global
 		{60444F91-7AA8-48A7-A8C7-F68811919266}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60444F91-7AA8-48A7-A8C7-F68811919266}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60444F91-7AA8-48A7-A8C7-F68811919266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D305D487-DF81-4FF5-ADD2-07F02F223057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D305D487-DF81-4FF5-ADD2-07F02F223057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D305D487-DF81-4FF5-ADD2-07F02F223057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D305D487-DF81-4FF5-ADD2-07F02F223057}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
