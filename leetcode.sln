@@ -318,6 +318,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_309. Best Time to Buy and 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_67. Add Binary", "problems\_67. Add Binary\_67. Add Binary.csproj", "{403F11B4-9B21-4730-BFE5-5DDD301B63D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_714. Best Time to Buy and Sell Stock with Transaction Fee", "problems\_714. Best Time to Buy and Sell Stock with Transaction Fee\_714. Best Time to Buy and Sell Stock with Transaction Fee.csproj", "{68082ADA-A4CA-4B03-B05E-85D49E338E80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -956,5 +958,9 @@ Global
 		{403F11B4-9B21-4730-BFE5-5DDD301B63D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{403F11B4-9B21-4730-BFE5-5DDD301B63D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{403F11B4-9B21-4730-BFE5-5DDD301B63D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68082ADA-A4CA-4B03-B05E-85D49E338E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68082ADA-A4CA-4B03-B05E-85D49E338E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68082ADA-A4CA-4B03-B05E-85D49E338E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68082ADA-A4CA-4B03-B05E-85D49E338E80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
