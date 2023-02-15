@@ -326,6 +326,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_413. Arithmetic Slices", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_91. Decode Ways", "problems\_91. Decode Ways\_91. Decode Ways.csproj", "{D305D487-DF81-4FF5-ADD2-07F02F223057}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_989. Add to Array-Form of Integer", "problems\_989. Add to Array-Form of Integer\_989. Add to Array-Form of Integer.csproj", "{382E88C9-E538-4805-8C2C-ACF3F00D82A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -980,5 +982,9 @@ Global
 		{D305D487-DF81-4FF5-ADD2-07F02F223057}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D305D487-DF81-4FF5-ADD2-07F02F223057}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D305D487-DF81-4FF5-ADD2-07F02F223057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{382E88C9-E538-4805-8C2C-ACF3F00D82A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{382E88C9-E538-4805-8C2C-ACF3F00D82A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{382E88C9-E538-4805-8C2C-ACF3F00D82A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{382E88C9-E538-4805-8C2C-ACF3F00D82A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
