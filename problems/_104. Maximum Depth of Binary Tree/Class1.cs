@@ -14,7 +14,7 @@ public class TreeNode
     }
 }
 
-public class Solution
+public class FirstSolution
 {
     public int MaxDepth(TreeNode root, int res = 0)
     {
@@ -22,5 +22,17 @@ public class Solution
             return res;
         res = Math.Max(MaxDepth(root.left, res + 1), MaxDepth(root.right, res + 1));
         return res;
+    }
+}
+
+//second attempt 3 min [O(n), O(stack)]
+public class Solution
+{
+    public int MaxDepth(TreeNode root, int n = 0)
+    {
+        if (root is null)
+            return n;
+
+        return Math.Max(MaxDepth(root.left, n + 1), MaxDepth(root.right, n + 1));
     }
 }
