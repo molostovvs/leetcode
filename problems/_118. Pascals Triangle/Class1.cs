@@ -1,14 +1,12 @@
 ﻿using FluentAssertions;
 using NUnit.Framework;
 
-namespace _118._Pascals_Triangle;
-
 public class Program
 {
     public static void Main() {}
 }
 
-public class Solution
+public class FirstSolution
 {
     public IList<IList<int>> Generate(int numRows)
     {
@@ -29,6 +27,27 @@ public class Solution
         }
 
         return triangle;
+    }
+}
+
+//second attempt 3 min [O(n^2), O(1)]
+public class Solution
+{
+    public IList<IList<int>> Generate(int numRows)
+    {
+        var res = new List<IList<int>>();
+
+        for (var i = 0; i < numRows; i++)
+        {
+            res.Add(new List<int>(i + 1));
+            for (var j = 0; j <= i; j++)
+                if (j == 0 || j == i)
+                    res[i].Add(1);
+                else
+                    res[i].Add(res[i - 1][j - 1] + res[i - 1][j]);
+        }
+
+        return res;
     }
 }
 
