@@ -334,6 +334,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_96. Unique Binary Search T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_42. Trapping Rain Water", "problems\_42. Trapping Rain Water\_42. Trapping Rain Water.csproj", "{DA84BA03-3710-46C6-B9C1-16B1B2553CA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_119. Pascals Triangle II", "problems\_119. Pascals Triangle II\_119. Pascals Triangle II.csproj", "{BD352AE1-6D49-4635-BBE9-DDCA0CEC37F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1004,5 +1006,9 @@ Global
 		{DA84BA03-3710-46C6-B9C1-16B1B2553CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA84BA03-3710-46C6-B9C1-16B1B2553CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA84BA03-3710-46C6-B9C1-16B1B2553CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD352AE1-6D49-4635-BBE9-DDCA0CEC37F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD352AE1-6D49-4635-BBE9-DDCA0CEC37F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD352AE1-6D49-4635-BBE9-DDCA0CEC37F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD352AE1-6D49-4635-BBE9-DDCA0CEC37F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
