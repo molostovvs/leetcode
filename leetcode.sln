@@ -342,6 +342,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_931. Minimum Falling Path 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1314. Matrix Block Sum", "problems\_1314. Matrix Block Sum\_1314. Matrix Block Sum.csproj", "{B8895306-F5AA-40A8-881B-71EC18CEC7B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_304. Range Sum Query 2D - Immutable", "problems\_304. Range Sum Query 2D - Immutable\_304. Range Sum Query 2D - Immutable.csproj", "{1C91A874-9A7C-4D51-833D-181A988F1956}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1028,5 +1030,9 @@ Global
 		{B8895306-F5AA-40A8-881B-71EC18CEC7B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8895306-F5AA-40A8-881B-71EC18CEC7B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8895306-F5AA-40A8-881B-71EC18CEC7B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C91A874-9A7C-4D51-833D-181A988F1956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C91A874-9A7C-4D51-833D-181A988F1956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C91A874-9A7C-4D51-833D-181A988F1956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C91A874-9A7C-4D51-833D-181A988F1956}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
