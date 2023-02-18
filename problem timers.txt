@@ -85,7 +85,7 @@ __424. Longest Repeating Character Replacement - 90 min [O(n), O(alphabet)]
 1603. Design Parking System - 5 min [O(n), O(n)] / 5 min [O(n), O(1)]
 303. Range Sum Query - Immutable - 5 min [O(n), O(n)]
 299. Bulls and Cows - 25 min [O(n), O(alphabet)]
-226. Invert Binary Tree - 20 min [O(n), O(h)]
+226. Invert Binary Tree - 20 min [O(n), O(h)] >> 3 min
 112. Path Sum - 10 min [O(n), O(n)]
 _155. Min Stack - 30 min [O(n), O(2n)] / 10 min checked hint [O(n), O(n)]
 150. Evaluate Reverse Polish Notation - 15 min [O(n), O(operations)]

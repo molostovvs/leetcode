@@ -12,7 +12,7 @@
     }
 }
 
-public class Solution
+public class OldSolution
 {
     public TreeNode InvertTree(TreeNode root)
     {
@@ -24,5 +24,25 @@ public class Solution
         InvertTree(root.left);
         InvertTree(root.right);
         return root;
+    }
+}
+
+//second attempt 3 min [O(n), O(h)]
+public class Solution
+{
+    public TreeNode InvertTree(TreeNode root)
+    {
+        Helper(root);
+        return root;
+    }
+
+    private void Helper(TreeNode root)
+    {
+        if (root is null)
+            return;
+
+        (root.left, root.right) = (root.right, root.left);
+        Helper(root.left);
+        Helper(root.right);
     }
 }
