@@ -346,6 +346,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_304. Range Sum Query 2D - 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_103. Binary Tree Zigzag Level Order Traversal", "problems\_103. Binary Tree Zigzag Level Order Traversal\_103. Binary Tree Zigzag Level Order Traversal.csproj", "{8E2BF854-5B5B-4B12-93D6-AB97C5E27653}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_63. Unique Paths II", "problems\_63. Unique Paths II\_63. Unique Paths II.csproj", "{4B29178E-8528-4BB6-B927-D68D412E5D70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1040,5 +1042,9 @@ Global
 		{8E2BF854-5B5B-4B12-93D6-AB97C5E27653}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E2BF854-5B5B-4B12-93D6-AB97C5E27653}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E2BF854-5B5B-4B12-93D6-AB97C5E27653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B29178E-8528-4BB6-B927-D68D412E5D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B29178E-8528-4BB6-B927-D68D412E5D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B29178E-8528-4BB6-B927-D68D412E5D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B29178E-8528-4BB6-B927-D68D412E5D70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
