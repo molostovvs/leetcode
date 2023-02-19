@@ -179,3 +179,4 @@ __42. Trapping Rain Water - 65 min [O(n), O(n)]
 931. Minimum Falling Path Sum - 8 min [O(m*n), O(1)]
 1314. Matrix Block Sum - 20 min [O(n^2 OR n^4), O(1)]
 304. Range Sum Query 2D - Immutable - 25 min [O(1), O(1)] {time complexity is O(1) according to description of the problem}
+103. Binary Tree Zigzag Level Order Traversal - 20 min [O(n), O(n)]
