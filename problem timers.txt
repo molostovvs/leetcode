@@ -181,3 +181,4 @@ __42. Trapping Rain Water - 65 min [O(n), O(n)]
 304. Range Sum Query 2D - Immutable - 25 min [O(1), O(1)] {time complexity is O(1) according to description of the problem}
 103. Binary Tree Zigzag Level Order Traversal - 20 min [O(n), O(n)]
 63. Unique Paths II - 18 min [O(m*n), O(1)]
+64. Minimum Path Sum - 5 min [O(m*n), O(1)]

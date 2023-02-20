@@ -348,6 +348,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_103. Binary Tree Zigzag Le
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_63. Unique Paths II", "problems\_63. Unique Paths II\_63. Unique Paths II.csproj", "{4B29178E-8528-4BB6-B927-D68D412E5D70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_64. Minimum Path Sum", "problems\_64. Minimum Path Sum\_64. Minimum Path Sum.csproj", "{120A9B77-C053-4E88-BB90-70F9B976B804}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1046,5 +1048,9 @@ Global
 		{4B29178E-8528-4BB6-B927-D68D412E5D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B29178E-8528-4BB6-B927-D68D412E5D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B29178E-8528-4BB6-B927-D68D412E5D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{120A9B77-C053-4E88-BB90-70F9B976B804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120A9B77-C053-4E88-BB90-70F9B976B804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120A9B77-C053-4E88-BB90-70F9B976B804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120A9B77-C053-4E88-BB90-70F9B976B804}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
