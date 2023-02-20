@@ -350,6 +350,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_63. Unique Paths II", "pro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_64. Minimum Path Sum", "problems\_64. Minimum Path Sum\_64. Minimum Path Sum.csproj", "{120A9B77-C053-4E88-BB90-70F9B976B804}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_221. Maximal Square", "problems\_221. Maximal Square\_221. Maximal Square.csproj", "{F1FEEDB3-CC16-40D8-A79C-6BB050A0699C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1052,5 +1054,9 @@ Global
 		{120A9B77-C053-4E88-BB90-70F9B976B804}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{120A9B77-C053-4E88-BB90-70F9B976B804}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{120A9B77-C053-4E88-BB90-70F9B976B804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1FEEDB3-CC16-40D8-A79C-6BB050A0699C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1FEEDB3-CC16-40D8-A79C-6BB050A0699C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1FEEDB3-CC16-40D8-A79C-6BB050A0699C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1FEEDB3-CC16-40D8-A79C-6BB050A0699C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
