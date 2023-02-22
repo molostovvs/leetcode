@@ -360,6 +360,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_516. Longest Palindromic S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1011. Capacity To Ship Packages Within D Days", "problems\_1011. Capacity To Ship Packages Within D Days\_1011. Capacity To Ship Packages Within D Days.csproj", "{B07A91A9-C720-4D7B-A520-5428697DA07C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_300. Longest Increasing Subsequence", "problems\_300. Longest Increasing Subsequence\_300. Longest Increasing Subsequence.csproj", "{0BB0738A-ED0D-453F-94F0-E24FFC352045}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1082,5 +1084,9 @@ Global
 		{B07A91A9-C720-4D7B-A520-5428697DA07C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B07A91A9-C720-4D7B-A520-5428697DA07C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B07A91A9-C720-4D7B-A520-5428697DA07C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BB0738A-ED0D-453F-94F0-E24FFC352045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BB0738A-ED0D-453F-94F0-E24FFC352045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BB0738A-ED0D-453F-94F0-E24FFC352045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BB0738A-ED0D-453F-94F0-E24FFC352045}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
