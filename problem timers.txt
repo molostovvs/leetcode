@@ -189,3 +189,5 @@ __516. Longest Palindromic Subsequence - 30 min [O(m*n), O(m*n)]
 __1011. Capacity To Ship Packages Within D Days - 30 min [O(nlogn), O(1)]
 __300. Longest Increasing Subsequence - 30 min [O(n^2), O(n)]
 __376. Wiggle Subsequence - 20 min [O(n), O(n)]
+__502. IPO - 30 min (spied) [O(nlogn), O(n+k)]
+
