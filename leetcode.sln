@@ -364,6 +364,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_300. Longest Increasing Su
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_376. Wiggle Subsequence", "problems\_376. Wiggle Subsequence\_376. Wiggle Subsequence.csproj", "{1210321D-7AD0-4B3E-8129-841E97E7AD21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_502. IPO", "problems\_502. IPO\_502. IPO.csproj", "{16FA9F36-59F6-4B85-9CDA-D17CF7F5AF03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1675. Minimize Deviation in Array", "_1675. Minimize Deviation in Array\_1675. Minimize Deviation in Array.csproj", "{86E39CF2-7766-41D1-B810-F0B96B0803FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1094,5 +1098,13 @@ Global
 		{1210321D-7AD0-4B3E-8129-841E97E7AD21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1210321D-7AD0-4B3E-8129-841E97E7AD21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1210321D-7AD0-4B3E-8129-841E97E7AD21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16FA9F36-59F6-4B85-9CDA-D17CF7F5AF03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16FA9F36-59F6-4B85-9CDA-D17CF7F5AF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16FA9F36-59F6-4B85-9CDA-D17CF7F5AF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16FA9F36-59F6-4B85-9CDA-D17CF7F5AF03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86E39CF2-7766-41D1-B810-F0B96B0803FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E39CF2-7766-41D1-B810-F0B96B0803FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E39CF2-7766-41D1-B810-F0B96B0803FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E39CF2-7766-41D1-B810-F0B96B0803FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
