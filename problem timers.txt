@@ -12,7 +12,7 @@ __724. Find Pivot Index - 100 min (spied solution)
 1523. Count Odd Numbers in an Interval Range - 15 min >> 3 min [O(1), O(1)]
 1491. Average Salary Excluding the Minimum and Maximum Salary - 6 min
 217. Contains Duplicate - 2 min >> 1 min
-1. Two Sum - 5 min (another 10 min for O(n) solution) >> 30 min (spied)
+1. Two Sum - 5 min (another 10 min for O(n) solution) >> 30 min (spied) >> 7 min [O(n), O(n)]
 __53. Maximum Subarray - 40 min (spied solution) >> 8 min [O(n), O(1)]
 __21. Merge Two Sorted Lists - 50 min (spied solution) >> 8 min
 206. Reverse Linked List - 83 min >> 10 min [O(n), O(1)] >> 5 min

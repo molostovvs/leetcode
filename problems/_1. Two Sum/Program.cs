@@ -5,7 +5,7 @@ public class Program
     static void Main(string[] args) {}
 }
 
-public class Solution
+public class OldSolution
 {
     public int[] TwoSum(int[] nums, int target)
     {
@@ -28,6 +28,29 @@ public class Solution
             if (table.ContainsKey(need))
                 return new[] { table[need], i };
             table.TryAdd(nums[i], i);
+        }
+
+        return null;
+    }
+}
+
+// second attempt 7 min [O(n), O(n)]
+public class SecondSolution
+{
+    public int[] TwoSum(int[] nums, int target)
+    {
+        var d = new Dictionary<int, List<int>>();
+        for (int i = 0; i < nums.Length; i++)
+        {
+            if (!d.TryAdd(nums[i], new List<int> { i }))
+                d[nums[i]].Add(i);
+        }
+
+        for (int i = 0; i < nums.Length; i++)
+        {
+            var need = target - nums[i];
+            if (d.ContainsKey(need) && d[need].Where(x => x != i).Count() > 0)
+                return new[] { i, d[need].First(x => x != i) };
         }
 
         return null;
