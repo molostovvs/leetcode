@@ -368,6 +368,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_502. IPO", "problems\_502.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1675. Minimize Deviation in Array", "_1675. Minimize Deviation in Array\_1675. Minimize Deviation in Array.csproj", "{86E39CF2-7766-41D1-B810-F0B96B0803FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_72. Edit Distance", "problems\_72. Edit Distance\_72. Edit Distance.csproj", "{76DE6333-719C-47D7-B569-D15CBE573096}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1106,5 +1108,9 @@ Global
 		{86E39CF2-7766-41D1-B810-F0B96B0803FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86E39CF2-7766-41D1-B810-F0B96B0803FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86E39CF2-7766-41D1-B810-F0B96B0803FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76DE6333-719C-47D7-B569-D15CBE573096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76DE6333-719C-47D7-B569-D15CBE573096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76DE6333-719C-47D7-B569-D15CBE573096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76DE6333-719C-47D7-B569-D15CBE573096}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
