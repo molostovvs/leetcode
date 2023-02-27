@@ -4,6 +4,7 @@ _ prefix means that i cope with the task, but there was a better solution
 __ prefix means that i did not cope with the task myself
 >> next attempt took X min
 / for follow-ups or alternatives
+X_ prefix for bad questions that i didnt want to solve
 
 1480. Running Sum of 1d Array - 5min
 __724. Find Pivot Index - 100 min (spied solution)
@@ -192,3 +193,4 @@ __376. Wiggle Subsequence - 20 min [O(n), O(n)]
 __502. IPO - 30 min (spied) [O(nlogn), O(n+k)]
 __1675. Minimize Deviation in Array - 30 min [O(nlogn), O(n)]
 _72. Edit Distance - 35 min [O(m*n), O(m*n)]
+X_427. Construct Quad Tree - 20 min
