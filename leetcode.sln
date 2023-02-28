@@ -372,6 +372,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1675. Minimize Deviation i
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_427. Construct Quad Tree", "problems\_427. Construct Quad Tree\_427. Construct Quad Tree.csproj", "{B7CBB8B3-4D74-4D3C-95F1-25B668443C6D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_652. Find Duplicate Subtrees", "problems\_652. Find Duplicate Subtrees\_652. Find Duplicate Subtrees.csproj", "{D1289759-D764-4E4F-AC8D-6E34FAA2A6A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1118,5 +1120,9 @@ Global
 		{B7CBB8B3-4D74-4D3C-95F1-25B668443C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7CBB8B3-4D74-4D3C-95F1-25B668443C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7CBB8B3-4D74-4D3C-95F1-25B668443C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1289759-D764-4E4F-AC8D-6E34FAA2A6A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1289759-D764-4E4F-AC8D-6E34FAA2A6A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1289759-D764-4E4F-AC8D-6E34FAA2A6A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1289759-D764-4E4F-AC8D-6E34FAA2A6A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
