@@ -374,6 +374,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_427. Construct Quad Tree",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_652. Find Duplicate Subtrees", "problems\_652. Find Duplicate Subtrees\_652. Find Duplicate Subtrees.csproj", "{D1289759-D764-4E4F-AC8D-6E34FAA2A6A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_912. Sort an Array", "problems\_912. Sort an Array\_912. Sort an Array.csproj", "{311EC004-1921-4165-AA71-3D82B2260E19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1124,5 +1126,9 @@ Global
 		{D1289759-D764-4E4F-AC8D-6E34FAA2A6A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1289759-D764-4E4F-AC8D-6E34FAA2A6A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1289759-D764-4E4F-AC8D-6E34FAA2A6A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{311EC004-1921-4165-AA71-3D82B2260E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{311EC004-1921-4165-AA71-3D82B2260E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{311EC004-1921-4165-AA71-3D82B2260E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{311EC004-1921-4165-AA71-3D82B2260E19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
