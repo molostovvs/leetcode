@@ -195,4 +195,5 @@ __1675. Minimize Deviation in Array - 30 min [O(nlogn), O(n)]
 _72. Edit Distance - 35 min [O(m*n), O(m*n)]
 X_427. Construct Quad Tree - 20 min
 __652. Find Duplicate Subtrees - 20 min [O(n), O(n)]
-_912. Sort an Array - 5 min (stl) 
+_912. Sort an Array - 5 min (stl)
+443. String Compression - 30 min [O(n), O(1)]
