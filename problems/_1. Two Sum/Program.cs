@@ -56,3 +56,25 @@ public class SecondSolution
         return null;
     }
 }
+
+// ~SPIED~ third attempt after a long time from previous 30 min [O(n), O(n)]
+public class ThirdSolution
+{
+    public int[] TwoSum(int[] nums, int target)
+    {
+        var d = new Dictionary<int, List<int>>();
+
+        for (int i = 0; i < nums.Length; i++)
+            if (!d.TryAdd(nums[i], new List<int> { i }))
+                d[nums[i]].Add(i);
+
+        for (int i = 0; i < nums.Length; i++)
+        {
+            var need = target - nums[i];
+            if (d.ContainsKey(need) && d[need].Where(x => x != i).Count() > 0)
+                return new[] { i, d[need].First(x => x != i) };
+        }
+
+        return null;
+    }
+}
