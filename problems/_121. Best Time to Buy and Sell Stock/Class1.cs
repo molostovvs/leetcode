@@ -3,10 +3,10 @@ using NUnit.Framework;
 
 public class Program
 {
-    public static void Main() {}
+    // public static void Main() {}
 }
 
-public class OldSolution
+public class FirstSolution
 {
     public int MaxProfit(int[] prices)
     {
@@ -46,7 +46,7 @@ public class OldSolution
 }
 
 //second attempt 5 min [O(n), O(1)]
-public class Solution
+public class SecondSolution
 {
     public int MaxProfit(int[] prices)
     {
@@ -63,6 +63,45 @@ public class Solution
         }
 
         return res;
+    }
+}
+
+//third attempt 10 min [O(n), O(n)]
+public class Solution
+{
+    public int MaxProfit(int[] prices)
+    {
+        var stack = new Stack<int>();
+
+        var min = prices[0];
+        stack.Push(min);
+        var profit = 0;
+
+        for (var i = 1; i < prices.Length; i++)
+        {
+            var cur = prices[i];
+
+            if (cur > min)
+            {
+                stack.Push(cur);
+            }
+            else
+            {
+                while (stack.Count > 0)
+                {
+                    var pop = stack.Pop();
+                    if (pop - min > profit)
+                        profit = pop - min;
+                }
+
+                min = cur;
+            }
+        }
+
+        if (stack.Count != 0)
+            return Math.Max(profit, stack.Max() - min);
+
+        return profit;
     }
 }
 
