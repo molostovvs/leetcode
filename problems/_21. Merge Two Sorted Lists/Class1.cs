@@ -17,7 +17,7 @@ public class ListNode
     }
 }
 
-public static class OldSolution
+public static class FirstSolution
 {
     public static ListNode MergeTwoLists(ListNode list1, ListNode list2)
     {
@@ -58,7 +58,7 @@ public static class OldSolution
 }
 
 //second attempt 8 min [O(n+m), O(1)]
-public class Solution
+public class SecondSolution
 {
     public ListNode MergeTwoLists(ListNode list1, ListNode list2)
     {
@@ -100,5 +100,40 @@ public class Solution
         }
 
         return dummy.next;
+    }
+}
+
+//12 min
+public class ThirdSolution
+{
+    public ListNode MergeTwoLists(ListNode up, ListNode down)
+    {
+        if (up is null)
+            return down;
+        if (down is null)
+            return up;
+
+        var head = new ListNode();
+        var tail = head;
+
+        while (up is not null && down is not null)
+        {
+            if (up.val <= down.val)
+            {
+                tail.next = up;
+                tail = tail.next;
+                up = up.next;
+            }
+            else
+            {
+                tail.next = down;
+                tail = tail.next;
+                down = down.next;
+            }
+        }
+
+        tail.next = up ?? down;
+
+        return head.next;
     }
 }
