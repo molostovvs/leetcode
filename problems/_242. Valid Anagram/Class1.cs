@@ -4,34 +4,42 @@ using NUnit.Framework;
 
 namespace _242._Valid_Anagram;
 
-public class Program
+public class FirstSolution
 {
-    public static void Main() {}
+    public bool IsAnagram(string s, string t)
+        => s.OrderBy(i => i).SequenceEqual(t.OrderBy(i => i));
 }
 
+//5 min [O(s+t), O(s+t)]
 public class Solution
 {
     public bool IsAnagram(string s, string t)
-        /*//simple solution via dictionary [O(s+t), O(s+t)]
+    {
         if (s.Length != t.Length)
             return false;
 
-        var sDict = new Dictionary<char, int>();
-        foreach (var c in s)
-            if (!sDict.TryAdd(c, 1))
-                sDict[c]++;
+        var sDict = new Dictionary<char, int>(); //int for count
 
-        var tDict = new Dictionary<char, int>();
-        foreach (var c in t)
-            if (!tDict.TryAdd(c, 1))
-                tDict[c]++;
+        for (var i = 0; i < s.Length; i++)
+        {
+            var ch = s[i];
 
-        foreach (var kv in sDict)
-            if (!tDict.ContainsKey(kv.Key) || sDict[kv.Key] != tDict[kv.Key])
+            if (!sDict.TryAdd(ch, 1))
+                sDict[ch]++;
+        }
+
+        for (var i = 0; i < t.Length; i++)
+        {
+            var ch = t[i];
+
+            if (!sDict.ContainsKey(ch))
                 return false;
 
-        return true;*/
-        => s.OrderBy(i => i).SequenceEqual(t.OrderBy(i => i));
+            sDict[ch]--;
+        }
+
+        return sDict.All(kv => kv.Value == 0);
+    }
 }
 
 [TestFixture]
