@@ -12,7 +12,7 @@
     }
 }
 
-public class OldSolution
+public class FirstSolution
 {
     public TreeNode InvertTree(TreeNode root)
     {
@@ -28,7 +28,7 @@ public class OldSolution
 }
 
 //second attempt 3 min [O(n), O(h)]
-public class Solution
+public class SecondSolution
 {
     public TreeNode InvertTree(TreeNode root)
     {
@@ -44,5 +44,22 @@ public class Solution
         (root.left, root.right) = (root.right, root.left);
         Helper(root.left);
         Helper(root.right);
+    }
+}
+
+//third attempt 2 min [O(n), O(h)]
+public class Solution
+{
+    public TreeNode InvertTree(TreeNode root)
+    {
+        if (root is null)
+            return root;
+
+        (root.right, root.left) = (root.left, root.right);
+
+        InvertTree(root.left);
+        InvertTree(root.right);
+
+        return root;
     }
 }
