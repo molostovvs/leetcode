@@ -3,12 +3,7 @@ using NUnit.Framework;
 
 namespace _704._Binary_Search;
 
-public class Program
-{
-    public static void Main() {}
-}
-
-public class Solution
+public class FirstSolution
 {
     public int Search(int[] nums, int target)
     {
@@ -26,6 +21,30 @@ public class Solution
         }
 
         return -1;
+    }
+}
+
+public class Solution
+{
+    public int Search(int[] nums, int target)
+    {
+        int left = 0, right = nums.Length - 1;
+
+        while (left < right)
+        {
+            var midIndex = (left + right) / 2;
+            var mid = nums[midIndex];
+
+            if (mid == target)
+                return midIndex;
+
+            if (mid < target)
+                left = midIndex + 1;
+            else
+                right = midIndex;
+        }
+
+        return nums[left] == target ? left : -1;
     }
 }
 
