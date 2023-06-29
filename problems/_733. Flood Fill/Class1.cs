@@ -3,12 +3,7 @@ using NUnit.Framework;
 
 namespace _733._Flood_Fill;
 
-public class Program
-{
-    public static void Main() {}
-}
-
-public class OldSolution
+public class FirstSolution
 {
     public int[][] FloodFill(int[][] image, int sr, int sc, int color)
     {
@@ -55,7 +50,7 @@ public class OldSolution
 }
 
 //second attempt [O(n), O(n)]
-public class Solution
+public class SecondSolution
 {
     public int[][] FloodFill(int[][] image, int sr, int sc, int color)
     {
@@ -93,7 +88,64 @@ public class Solution
     }
 }
 
-//NEXT ATTEMPT SHOULD BE RECURSIVE
+//recursive 25 min [O(n), O(n)]
+public class Solution
+{
+    public int[][] FloodFill(int[][] image, int sr, int sc, int color)
+    {
+        var cur = (row: sr, col: sc);
+
+        var visited = new HashSet<(int row, int col)>();
+
+        return Helper(image, cur, color, image[cur.row][cur.col], visited);
+    }
+
+    private int[][] Helper(int[][] image, (int row, int col) cur, int targetColor, int startColor,
+        HashSet<(int row, int col)> visited)
+    {
+        if (PixelIsOutside(image, cur))
+            return image;
+
+        visited.Add(cur);
+        var neighbors = GetNeighbors(image, cur, startColor);
+
+        if (image[cur.row][cur.col] == startColor)
+            image[cur.row][cur.col] = targetColor;
+
+        foreach (var neighbor in neighbors)
+            if (!visited.Contains(neighbor))
+                Helper(image, neighbor, targetColor, startColor, visited);
+
+        return image;
+    }
+
+    private static bool PixelIsOutside(int[][] image, (int row, int col) cur)
+        => cur.row < 0
+            || cur.row >= image.GetLength(0)
+            || cur.col < 0
+            || cur.col >= image[0].GetLength(0);
+
+    private IEnumerable<(int row, int col)> GetNeighbors(int[][] image, (int row, int col) cur,
+        int startColor)
+    {
+        var top = cur with { row = cur.row - 1 };
+        var bot = cur with { row = cur.row + 1 };
+        var left = cur with { col = cur.col - 1 };
+        var right = cur with { col = cur.col + 1 };
+
+        if (!PixelIsOutside(image, top) && image[top.row][top.col] == startColor)
+            yield return top;
+
+        if (!PixelIsOutside(image, bot) && image[bot.row][bot.col] == startColor)
+            yield return bot;
+
+        if (!PixelIsOutside(image, left) && image[left.row][left.col] == startColor)
+            yield return left;
+
+        if (!PixelIsOutside(image, right) && image[right.row][right.col] == startColor)
+            yield return right;
+    }
+}
 
 [TestFixture]
 public class Tests
