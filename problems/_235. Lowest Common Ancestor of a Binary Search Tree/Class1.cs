@@ -1,11 +1,6 @@
 ﻿using FluentAssertions;
 using NUnit.Framework;
 
-public class Program
-{
-    public static void Main() {}
-}
-
 public class TreeNode
 {
     public int val;
@@ -68,6 +63,7 @@ public class Solution
         FillDictionary(dict, root.right);
     }
 }*/
+
 /*//googled [O(log n), O(1)]
 public class OldSolution
 {
@@ -89,7 +85,7 @@ public class OldSolution
 }*/
 
 //second attempt 6 min [O(log n, O(h))]
-public class Solution
+public class SecondSolution
 {
     public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)
     {
@@ -102,6 +98,25 @@ public class Solution
         if (p.val < root.val && q.val < root.val)
             return LowestCommonAncestor(root.left, p, q);
         return LowestCommonAncestor(root.right, p, q);
+    }
+}
+
+//third attempt 4 min [O(log n, O(h))]
+public class Solution
+{
+    public TreeNode LowestCommonAncestor(TreeNode root, TreeNode child1, TreeNode child2)
+    {
+        if (root.val == child1.val || root.val == child2.val)
+            return root;
+
+        if (root.val > child1.val && root.val < child2.val
+            || root.val < child1.val && root.val > child2.val)
+            return root;
+
+        if (root.val > child1.val && root.val > child2.val)
+            return LowestCommonAncestor(root.left, child1, child2);
+
+        return LowestCommonAncestor(root.right, child1, child2);
     }
 }
 

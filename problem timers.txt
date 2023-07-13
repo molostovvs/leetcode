@@ -49,7 +49,7 @@ __1588. Sum of All Odd Length Subarrays - 40 min (googled) [O(n), O(1)]
 1672. Richest Customer Wealth - 2 min [O(n), O(1)]
 __974. Subarray Sums Divisible by K - 70 min (googled) [O(n), O(n)]
 __98. Validate Binary Search Tree - 90 min [O(n), O(h)] >> 5 min [O(n), O(h)]
-_235. Lowest Common Ancestor of a Binary Search Tree - 30 min [O(n+h), O(n+h)] / 20 min (googled) [O(logn), O(h)] >> 6 min [O(log n), O(h)]
+_235. Lowest Common Ancestor of a Binary Search Tree - 30 min [O(n+h), O(n+h)] / 20 min (googled) [O(logn), O(h)] >> 6 min [O(log n), O(h)] >> 4 min
 1572. Matrix Diagonal Sum - 10 min [O(n), O(1)]
 141. Linked List Cycle - 10 min [O(n), O(1)]
 21. Merge Two Sorted Lists - 10 min [O(n + m), O(1)]
