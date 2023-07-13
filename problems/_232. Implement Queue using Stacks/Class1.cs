@@ -1,22 +1,11 @@
-﻿namespace _232._Implement_Queue_using_Stacks;
-
-/**
- * Your MyQueue object will be instantiated and called as such:
- * MyQueue obj = new MyQueue();
- * obj.Push(x);
- * int param_2 = obj.Pop();
- * int param_3 = obj.Peek();
- * bool param_4 = obj.Empty();
- */
-
-// implemented as in task [O(n^2?), O(n)]
+﻿// implemented as in task [O(n^2?), O(n)]
 // amortized O(1) for push, O(1) for pop & peek
-public class MyQueue
+public class FirstMyQueue
 {
     private Stack<int> _input;
     private Stack<int> _output;
 
-    public MyQueue()
+    public FirstMyQueue()
     {
         _input = new Stack<int>();
         _output = new Stack<int>();
@@ -48,4 +37,39 @@ public class MyQueue
 
     public bool Empty()
         => _input.Count == 0 && _output.Count == 0;
+}
+
+//second solution [O(1) amortized, O(n)]
+public class MyQueue
+{
+    private Stack<int> _s1;
+    private Stack<int> _s2;
+
+    public MyQueue()
+    {
+        _s1 = new Stack<int>();
+        _s2 = new Stack<int>();
+    }
+
+    public void Push(int x)
+    {
+        _s1.Push(x);
+    }
+
+    public int Pop()
+    {
+        Peek();
+        return _s2.Pop();
+    }
+
+    public int Peek()
+    {
+        if (_s2.Count == 0)
+            while (_s1.Count != 0)
+                _s2.Push(_s1.Pop());
+        return _s2.Peek();
+    }
+
+    public bool Empty()
+        => _s1.Count == 0 && _s2.Count == 0;
 }
