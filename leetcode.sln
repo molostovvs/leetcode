@@ -378,6 +378,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_912. Sort an Array", "prob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_443. String Compression", "problems\_443. String Compression\_443. String Compression.csproj", "{80D89403-EB4E-40F2-9A5C-F9E3622D550C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_110. Balanced Binary Tree", "_110. Balanced Binary Tree\_110. Balanced Binary Tree.csproj", "{3E9CF9F8-63FF-4C45-9CA2-798A95D1E65A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1136,5 +1138,9 @@ Global
 		{80D89403-EB4E-40F2-9A5C-F9E3622D550C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80D89403-EB4E-40F2-9A5C-F9E3622D550C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80D89403-EB4E-40F2-9A5C-F9E3622D550C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E9CF9F8-63FF-4C45-9CA2-798A95D1E65A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9CF9F8-63FF-4C45-9CA2-798A95D1E65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9CF9F8-63FF-4C45-9CA2-798A95D1E65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9CF9F8-63FF-4C45-9CA2-798A95D1E65A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

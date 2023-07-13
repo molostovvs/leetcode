@@ -197,3 +197,4 @@ X_427. Construct Quad Tree - 20 min
 __652. Find Duplicate Subtrees - 20 min [O(n), O(n)]
 _912. Sort an Array - 5 min (stl)
 443. String Compression - 30 min [O(n), O(1)]
+110. Balanced Binary Tree - 40 min [O(n^2), O(h)]
