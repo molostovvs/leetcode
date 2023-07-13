@@ -1,6 +1,4 @@
-﻿namespace _383._Ransom_Note;
-
-public class Solution
+﻿public class FirstSolution
 {
     public bool CanConstruct(string ransomNote, string magazine)
     {
@@ -15,6 +13,33 @@ public class Solution
                 dict[c]--;
             else
                 return false;
+        return true;
+    }
+}
+
+//second attempt optimized for memory [O(n), O(1)]
+public class Solution
+{
+    public bool CanConstruct(string ransomNote, string magazine)
+    {
+        var d = new int['z' - 'a' + 1];
+
+        for (var i = 0; i < magazine.Length; i++)
+        {
+            var ch = magazine[i];
+            d[ch - 'a']++;
+        }
+
+        for (var i = 0; i < ransomNote.Length; i++)
+        {
+            var ch = ransomNote[i];
+
+            if (d[ch - 'a'] > 0)
+                d[ch - 'a']--;
+            else
+                return false;
+        }
+
         return true;
     }
 }
