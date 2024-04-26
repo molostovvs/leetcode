@@ -78,3 +78,27 @@ public class ThirdSolution
         return null;
     }
 }
+
+// ~20 min [O(n), O(n)]
+public class FourthSolution
+{
+    public int[] TwoSum(int[] nums, int target)
+    {
+        var res = nums.Select((int n, int index) => (n, index)).OrderBy(t => t.n).ToArray();
+
+        for (int i = 0, j = res.Length - 1; i < j;)
+        {
+            var sum = res[i].n + res[j].n;
+
+            if (sum == target)
+                return new[] { res[i].index, res[j].index, };
+
+            if (sum < target)
+                i++;
+            else
+                j--;
+        }
+
+        return new int[] { };
+    }
+}
