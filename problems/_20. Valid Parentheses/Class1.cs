@@ -88,3 +88,33 @@ public class ThirdSolution
         return stack.Count == 0;
     }
 }
+
+//10 min [O(n), O(n)]
+public class FourthSolution
+{
+    public bool IsValid(string s)
+    {
+        var d = new Dictionary<char, char>()
+        {
+            {')', '('}, {']', '['}, {'}', '{'},
+        };
+
+        var stack = new Stack<char>();
+
+        foreach (var ch in s)
+        {
+            if (ch == '(' || ch == '[' || ch == '{')
+            {
+                stack.Push(ch);
+            }
+            else
+            {
+                var res = stack.TryPop(out var stackBracket);
+                if (res is false || d[ch] != stackBracket)
+                    return false;
+            }
+        }
+
+        return stack.Count == 0;
+    }
+}
