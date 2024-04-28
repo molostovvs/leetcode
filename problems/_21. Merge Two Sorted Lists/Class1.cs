@@ -2,7 +2,7 @@
 
 public class Program
 {
-    static void Main(string[] args) {}
+    static void Main(string[] args) { }
 }
 
 public class ListNode
@@ -135,5 +135,38 @@ public class ThirdSolution
         tail.next = up ?? down;
 
         return head.next;
+    }
+}
+
+//40 min
+public class FourthSolution
+{
+    public ListNode MergeTwoLists(ListNode l1, ListNode l2)
+    {
+        var dummy = new ListNode();
+        ListNode head = dummy;
+
+        while (l1 is not null && l2 is not null)
+        {
+            if (l1.val <= l2.val)
+            {
+                head.next = l1;
+                l1 = l1.next;
+            }
+            else
+            {
+                head.next = l2;
+                l2 = l2.next;
+            }
+
+            head = head.next;
+        }
+
+        if (l1 is not null)
+            head.next = l1;
+        if (l2 is not null)
+            head.next = l2;
+
+        return dummy.next;
     }
 }
