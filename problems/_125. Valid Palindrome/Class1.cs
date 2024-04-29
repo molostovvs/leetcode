@@ -49,6 +49,38 @@ public class SecondSolution
     }
 }
 
+//10 min [O(n), O(1)]
+public class ThirdSolution
+{
+    public bool isPalindrome(string s)
+    {
+        for (int i = 0, j = s.Length - 1; i < j;)
+        {
+            var iCh = char.ToLowerInvariant(s[i]);
+            var jCh = char.ToLowerInvariant(s[j]);
+
+            if (!char.IsAsciiLetterOrDigit(iCh))
+            {
+                i++;
+                continue;
+            }
+            if (!char.IsAsciiLetterOrDigit(jCh))
+            {
+                j--;
+                continue;
+            }
+
+            i++;
+            j--;
+
+            if (iCh != jCh)
+                return false;
+        }
+
+        return true;
+    }
+}
+
 [TestFixture]
 public class Tests
 {
