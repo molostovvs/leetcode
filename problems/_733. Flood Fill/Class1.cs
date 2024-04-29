@@ -147,6 +147,54 @@ public class Solution
     }
 }
 
+//recursive 30 min [O(n*m), O(1)]
+public class FourthSolution
+{
+    public int[][] FloodFill(int[][] image, int sr, int sc, int color)
+    {
+        if (image[sr][sc] == color)
+            return image;
+
+        var floodColor = image[sr][sc];
+        image[sr][sc] = color;
+
+        foreach (var n in GetNeighbors(image, sr, sc, floodColor))
+        {
+            FloodFill(image, n.Row, n.Col, color);
+        }
+
+        return image;
+    }
+
+    public List<(int Row, int Col)> GetNeighbors(int[][] image, int sr, int sc, int color)
+    {
+        var l = new List<(int, int)>();
+
+        var left = (sr, sc - 1);
+        var right = (sr, sc + 1);
+        var top = (sr - 1, sc);
+        var bot = (sr + 1, sc);
+
+        if (IsValidNeighbor(left, color, image))
+            l.Add(left);
+        if (IsValidNeighbor(right, color, image))
+            l.Add(right);
+        if (IsValidNeighbor(top, color, image))
+            l.Add(top);
+        if (IsValidNeighbor(bot, color, image))
+            l.Add(bot);
+
+        return l;
+    }
+
+    public bool IsValidNeighbor((int Row, int Col) pixel, int color, int[][] image)
+    => pixel.Row >= 0
+        && pixel.Row < image.Length
+        && pixel.Col >= 0
+        && pixel.Col < image[0].Length
+        && image[pixel.Row][pixel.Col] == color;
+}
+
 [TestFixture]
 public class Tests
 {
