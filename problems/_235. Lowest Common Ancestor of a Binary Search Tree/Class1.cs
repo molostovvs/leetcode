@@ -120,6 +120,22 @@ public class Solution
     }
 }
 
+//10 min [O(log n), O(h)]
+public class FourthSolution
+{
+    public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)
+    {
+        if (root.val >= p.val && root.val <= q.val
+            || root.val <= p.val && root.val >= q.val)
+            return root;
+
+        if (root.val > p.val && root.val > q.val)
+            return LowestCommonAncestor(root.left, p, q);
+        else
+            return LowestCommonAncestor(root.right, p, q);
+    }
+}
+
 [TestFixture]
 public class Tests
 {
