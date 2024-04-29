@@ -63,3 +63,19 @@ public class Solution
         return root;
     }
 }
+
+//fourth attempt 10 min [O(n), O(h)]
+public class FourthSolution
+{
+    public TreeNode InvertTree(TreeNode root)
+    {
+        if (root is null)
+            return null;
+
+        (root.left, root.right) = (root.right, root.left);
+        InvertTree(root.left);
+        InvertTree(root.right);
+
+        return root;
+    }
+}
