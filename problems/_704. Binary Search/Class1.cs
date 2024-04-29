@@ -48,6 +48,31 @@ public class Solution
     }
 }
 
+//10 min [O(log n), O(1)]
+public class ThirdSolution
+{
+    public int Search(int[] nums, int target)
+    {
+        int i = 0, j = nums.Length - 1;
+
+        while (i < j)
+        {
+            var k = (j + i) / 2;
+            var n = nums[k];
+
+            if (n == target)
+                return k;
+
+            if (n < target)
+                i = k + 1;
+            else
+                j = k - 1;
+        }
+
+        return nums[i] == target ? i : -1;
+    }
+}
+
 [TestFixture]
 public class Tests
 {
