@@ -38,7 +38,39 @@ public class Solution
     }
 }
 
-//NEXT SOLUTION SHOULD BE O(n)
+//30 min [O(n), o(h)]
+public class SecondSolution
+{
+    public bool IsBalanced(TreeNode? root)
+    {
+        if (root is null)
+            return true;
+
+        return Dfs(root).IsBalanced;
+    }
+
+    public (bool IsBalanced, int Height) Dfs(TreeNode? node)
+    {
+        if (node is null)
+            return (true, 0);
+
+        if (node.left is null && node.right is null)
+            return (true, 1);
+
+        var left = Dfs(node.left);
+        var right = Dfs(node.right);
+
+        var curHeight = Math.Max(left.Height, right.Height) + 1;
+
+        if (left.IsBalanced is false || right.IsBalanced is false)
+            return (false, curHeight);
+
+        if (Math.Abs(left.Height - right.Height) > 1)
+            return (false, curHeight);
+
+        return (true, curHeight);
+    }
+}
 
 [TestFixture]
 public class Tests
