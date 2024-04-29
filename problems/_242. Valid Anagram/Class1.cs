@@ -42,6 +42,35 @@ public class Solution
     }
 }
 
+//10 min [O(n), O(s)]
+public class ThirdSolution
+{
+    public bool IsAnagram(string s, string t)
+    {
+        var d = new Dictionary<char, int>();
+
+        foreach (var ch in s)
+        {
+            if (!d.TryAdd(ch, 1))
+                d[ch]++;
+        }
+
+        foreach (var ch in t)
+        {
+            if (!d.ContainsKey(ch) || d[ch] == 0)
+                return false;
+
+            d[ch]--;
+        }
+
+        foreach (var kv in d)
+            if (kv.Value > 0)
+                return false;
+
+        return true;
+    }
+}
+
 [TestFixture]
 public class Tests
 {
