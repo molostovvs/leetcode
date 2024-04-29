@@ -105,6 +105,38 @@ public class Solution
     }
 }
 
+//fourth attempt 20 min [O(n), O(1)]
+public class FourthSolution
+{
+    public int MaxProfix(int[] prices)
+    {
+        if (prices.Length <= 1)
+            return 0;
+
+        var profit = 0;
+
+        var min = prices[0];
+        var max = prices[0];
+
+        foreach (var p in prices)
+        {
+            if (max - min > profit)
+                profit = max - min;
+
+            if (p > max)
+                max = p;
+
+            if (p <= min)
+            {
+                min = p;
+                max = p;
+            }
+        }
+
+        return Math.Max(profit, max - min);
+    }
+}
+
 [TestFixture]
 public class Tests
 {
