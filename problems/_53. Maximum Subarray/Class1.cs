@@ -5,7 +5,7 @@ namespace _53._Maximum_Subarray;
 
 public class Program
 {
-    static void Main(string[] args) {}
+    static void Main(string[] args) { }
 }
 
 public class OldSolution
@@ -48,6 +48,28 @@ public class Solution
         }
 
         return max;
+    }
+}
+
+// 20 min [O(n), O(1)]
+public class ThirdSolution
+{
+    public int MaxSubArray(int[] nums)
+    {
+        var qSum = 0;
+        var res = int.MinValue;
+
+        foreach (var n in nums)
+        {
+            if (n > qSum + n)
+                qSum = 0;
+
+            qSum += n;
+
+            res = Math.Max(qSum, res);
+        }
+
+        return Math.Max(qSum, res);
     }
 }
 
