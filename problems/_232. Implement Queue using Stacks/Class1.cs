@@ -40,12 +40,12 @@ public class FirstMyQueue
 }
 
 //second solution [O(1) amortized, O(n)]
-public class MyQueue
+public class MySecondQueue
 {
     private Stack<int> _s1;
     private Stack<int> _s2;
 
-    public MyQueue()
+    public MySecondQueue()
     {
         _s1 = new Stack<int>();
         _s2 = new Stack<int>();
@@ -72,4 +72,35 @@ public class MyQueue
 
     public bool Empty()
         => _s1.Count == 0 && _s2.Count == 0;
+}
+
+//third 10 min [O(1) amortized, O(1)]
+//memory has O(1) because we cannot implement queue without allocations for input
+public class MyQueue
+{
+    public Stack<int> In { get; set; } = new();
+    public Stack<int> Out { get; set; } = new();
+
+    public void Push(int x)
+    {
+        In.Push(x);
+    }
+
+    public int Pop()
+    {
+        Peek();
+        return Out.Pop();
+    }
+
+    public int Peek()
+    {
+        if (Out.Count == 0)
+            while (In.Count > 0)
+                Out.Push(In.Pop());
+
+        return Out.Peek();
+    }
+
+    public bool Empty()
+        => In.Count == 0 && Out.Count == 0;
 }
