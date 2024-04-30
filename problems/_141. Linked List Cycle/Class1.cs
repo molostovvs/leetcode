@@ -50,3 +50,30 @@ public class Solution
         return fast == slow;
     }
 }
+
+//7 min [O(n), O(1)]
+public class ThirdSolution
+{
+    public bool HasCycle(ListNode head)
+    {
+        if (head is null)
+            return false;
+
+        var slow = head;
+        var fast = head.next?.next;
+
+        if (fast is null)
+            return false;
+
+        while (fast is not null)
+        {
+            if (slow == fast)
+                return true;
+
+            slow = slow?.next;
+            fast = fast.next?.next;
+        }
+
+        return false;
+    }
+}
