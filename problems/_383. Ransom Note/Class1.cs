@@ -43,3 +43,25 @@ public class Solution
         return true;
     }
 }
+
+// 5 min [O(n), O(1)] - memory O(1) since using const length array
+public class ThirdSolution
+{
+    public bool CanConstruct(string ransomNote, string magazine)
+    {
+        var arr = new int['z' - 'a' + 1];
+
+        foreach (var ch in magazine)
+            arr[ch - 'a']++;
+
+        foreach (var ch in ransomNote)
+        {
+            arr[ch - 'a']--;
+
+            if (arr[ch - 'a'] < 0)
+                return false;
+        }
+
+        return true;
+    }
+}
