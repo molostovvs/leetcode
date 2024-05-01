@@ -5,7 +5,7 @@ namespace _102._Binary_Tree_Level_Order_Traversal;
 
 public class Program
 {
-    public static void Main() {}
+    public static void Main() { }
 }
 
 public class TreeNode
@@ -50,6 +50,40 @@ public class Solution
         }
 
         return res;
+    }
+}
+
+//25 min [O(n), O(h)]
+public class SecondSolution
+{
+    public IList<IList<int>> LevelOrder(TreeNode root)
+    {
+        var result = new List<IList<int>>();
+
+        if (root is null)
+            return result;
+
+        result.Add(new List<int> { root.val });
+
+        T(root.left, result, 1);
+        T(root.right, result, 1);
+
+        return result;
+    }
+
+    public void T(TreeNode root, List<IList<int>> result, int level)
+    {
+        if (root is null)
+            return;
+
+        if (result.Count - 1 < level)
+            result.Add(new List<int> { root.val });
+        else
+            result[level].Add(root.val);
+
+
+        T(root.left, result, level + 1);
+        T(root.right, result, level + 1);
     }
 }
 
