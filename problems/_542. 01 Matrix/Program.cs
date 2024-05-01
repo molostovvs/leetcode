@@ -32,3 +32,44 @@ public class Solution
         return mat;
     }
 }
+
+//50 min spied [O(mn), O(1)]
+public class SecondSolution
+{
+    public int[][] UpdateMatrix(int[][] mat)
+    {
+        for (var r = 0; r < mat.Length; r++)
+            for (var c = 0; c < mat[0].Length; c++)
+                if (mat[r][c] > 0)
+                {
+                    var top = int.MaxValue / 2;
+                    var left = int.MaxValue / 2;
+
+                    if (r >= 1)
+                        top = mat[r - 1][c];
+
+                    if (c >= 1)
+                        left = mat[r][c - 1];
+
+                    mat[r][c] = Math.Min(top, left) + 1;
+                }
+
+        for (var r = mat.Length - 1; r >= 0; r--)
+            for (var c = mat[0].Length - 1; c >= 0; c--)
+                if (mat[r][c] > 0)
+                {
+                    var bot = int.MaxValue / 2;
+                    var right = int.MaxValue / 2;
+
+                    if (r < mat.Length - 1)
+                        bot = mat[r + 1][c];
+
+                    if (c < mat[0].Length - 1)
+                        right = mat[r][c + 1];
+
+                    mat[r][c] = Math.Min(mat[r][c], Math.Min(bot, right) + 1);
+                }
+
+        return mat;
+    }
+}
