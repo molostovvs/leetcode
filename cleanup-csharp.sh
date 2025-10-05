@@ -1,0 +1,3 @@
+#!/bin/sh
+
+find . -type d \( -name bin -o -name obj \) -exec rm -r {} +
