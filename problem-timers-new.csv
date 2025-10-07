@@ -1,3 +1,4 @@
 problem_id,problem name,start,end,duration(min),notes
 1,Two Sum,-,-,50,rust implementation
 1480,Running Sum of 1d Array,00:10,00:20,10,rust
+2469,Convert the Temperature,00:41,00:50,9,rust
